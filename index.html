@@ -500,7 +500,7 @@
             (!q || item.title.toLowerCase().includes(q) ||
                    item.summary.toLowerCase().includes(q) ||
                    item.source.toLowerCase().includes(q)) &&
-            (!d || item.date_iso === d)
+          (!d || item.date === d.split('-').reverse().join('/'))
         );
 
         if (!filtered.length) {
