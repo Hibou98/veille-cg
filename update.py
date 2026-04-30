@@ -27,28 +27,33 @@ except ImportError:
 SOURCES = [
     {
         "name": "Légifrance",
-        "url": "https://www.legifrance.gouv.fr/rss/jorf.xml",
-        "category_hint": None,  # catégorisé par mots-clés
+        "url": "https://www.legifrance.gouv.fr/feeds/jorf",
+        "category_hint": None,
     },
     {
         "name": "BOFiP",
-        "url": "https://bofip.impots.gouv.fr/bofip/rss.xml",
-        "category_hint": "fiscal",  # le BOFiP est quasi exclusivement fiscal
-    },
-    {
-        "name": "ANC",
-        "url": "https://www.anc.gouv.fr/sites/anc/accueil/normes-privees/actualites.rss.html",
-        "category_hint": "compta",
+        "url": "https://bofip.impots.gouv.fr/flux-rss",
+        "category_hint": "fiscal",
     },
     {
         "name": "Compta Online",
-        "url": "https://www.compta-online.com/rss.php",
+        "url": "http://www.compta-online.com/flux-rss.php",
         "category_hint": None,
     },
     {
         "name": "Village Justice",
-        "url": "https://www.village-justice.com/articles/rss.php",
+        "url": "https://www.village-justice.com/articles/backend.php?op=rss",
         "category_hint": None,
+    },
+    {
+        "name": "Actuel Expert Comptable",
+        "url": "https://www.actuel-expert-comptable.fr/rss",
+        "category_hint": None,
+    },
+    {
+        "name": "Economie.gouv.fr",
+        "url": "https://www.economie.gouv.fr/rss/actualites.xml",
+        "category_hint": "fiscal",
     },
 ]
 
