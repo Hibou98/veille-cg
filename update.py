@@ -1,32 +1,29 @@
 #!/usr/bin/env python3
 """
-VeilleCG - Script de mise à jour automatique du news.json
+VeilleCG - Script de mise a jour automatique du news.json
 Sources : Legifrance, BOFiP, ANC, Compta Online, Village Justice, Francis Lefebvre
 """
 
 import json
 import re
 import os
-import sys
-
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 
 
-sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 try:
     import feedparser
 except ImportError:
-    print("ERREUR : feedparser non installé. Exécutez : pip install feedparser")
+    print("ERREUR : feedparser non installe. Executez : pip install feedparser")
     exit(1)
 
 try:
     import requests
 except ImportError:
-    print("ERREUR : requests non installé. Exécutez : pip install requests")
+    print("ERREUR : requests non installe. Executez : pip install requests")
     exit(1)
 
-# ─── CONFIGURATION ────────────────────────────────────────────────────────────
+# ??? CONFIGURATION ????????????????????????????????????????????????????????????
 
 SOURCES = [
     {
@@ -82,45 +79,45 @@ SOURCES_INDISPONIBLES = [
     "Francis Lefebvre (pas de flux RSS public - verification manuelle requise)"
 ]
 
-# ─── MOTS-CLÉS D'EXCLUSION (articles hors scope compta/fiscal) ────────────────
+# ??? MOTS-CLES D'EXCLUSION (articles hors scope compta/fiscal) ????????????????
 
 MOTS_EXCLUSION = [
     "nomination ", "affectation ", "mutation ", "concours de ",
-    "militaire", "armée", "défense nationale", "légion d'honneur", "médaille",
+    "militaire", "armee", "defense nationale", "legion d'honneur", "medaille",
     "droit social", "droit du travail", "licenciement", "rupture conventionnelle",
     "droit de la famille", "divorce", "garde d'enfant",
     "urbanisme", "permis de construire", "droit de l'environnement",
-    "droit de la santé", "droit de la consommation",
-    "propriété intellectuelle", "marque déposée", "brevet d'invention",
-    "droit pénal", "infraction", "garde à vue", "tribunal correctionnel",
+    "droit de la sante", "droit de la consommation",
+    "propriete intellectuelle", "marque deposee", "brevet d'invention",
+    "droit penal", "infraction", "garde a vue", "tribunal correctionnel",
 ]
 
-# ─── MOTS-CLÉS POUR LA CATÉGORISATION ─────────────────────────────────────────
+# ??? MOTS-CLES POUR LA CATEGORISATION ?????????????????????????????????????????
 
 MOTS_FISCAL = [
-    "tva", "impôt", "taxe", "fiscal", "is ", "ir ", "prélèvement",
-    "pas ", "cfe", "cvae", "liasse", "dgfip", "bofip", "déclaration fiscale",
-    "crédit d'impôt", "déficit", "plus-value", "exonération fiscale",
+    "tva", "impot", "taxe", "fiscal", "is ", "ir ", "prelevement",
+    "pas ", "cfe", "cvae", "liasse", "dgfip", "bofip", "declaration fiscale",
+    "credit d'impot", "deficit", "plus-value", "exoneration fiscale",
     "cotisation", "acompte fiscal", "revenus fonciers", "micro-bic",
-    "micro-bnc", "bénéfices industriels", "bénéfices non commerciaux",
-    "facturation électronique", "e-invoicing", "pépite", "jeune entreprise",
+    "micro-bnc", "benefices industriels", "benefices non commerciaux",
+    "facturation electronique", "e-invoicing", "pepite", "jeune entreprise",
     "jei ", "cice", "contribution", "droits d'enregistrement", "isf",
     "ifi ", "succession", "donation", "droits de mutation"
 ]
 
 MOTS_COMPTA = [
-    "comptable", "comptabilité", "pcg", "plan comptable", "anc",
-    "norme", "amortissement", "provision", "bilan", "résultat",
-    "capitaux propres", "immobilisation", "stock", "créance", "dette",
-    "trésorerie", "flux de trésorerie", "consolidation", "ifrs",
-    "commissaire aux comptes", "cac", "audit", "annexe", "écart",
-    "passif", "actif", "compte de résultat", "charge", "produit",
-    "écriture comptable", "journal", "grand livre", "balance",
-    "dépréciation", "réévaluation", "subvention", "engagement hors bilan"
+    "comptable", "comptabilite", "pcg", "plan comptable", "anc",
+    "norme", "amortissement", "provision", "bilan", "resultat",
+    "capitaux propres", "immobilisation", "stock", "creance", "dette",
+    "tresorerie", "flux de tresorerie", "consolidation", "ifrs",
+    "commissaire aux comptes", "cac", "audit", "annexe", "ecart",
+    "passif", "actif", "compte de resultat", "charge", "produit",
+    "ecriture comptable", "journal", "grand livre", "balance",
+    "depreciation", "reevaluation", "subvention", "engagement hors bilan"
 ]
 
 
-# ─── UTILITAIRES ──────────────────────────────────────────────────────────────
+# ??? UTILITAIRES ??????????????????????????????????????????????????????????????
 
 class HTMLStripper(HTMLParser):
     """Supprime les balises HTML d'un texte."""
@@ -149,11 +146,11 @@ def strip_html(text):
 def truncate(text, max_chars=300):
     if len(text) <= max_chars:
         return text
-    return text[:max_chars].rsplit(' ', 1)[0] + '…'
+    return text[:max_chars].rsplit(' ', 1)[0] + '...'
 
 
 def categorize(title, summary, hint):
-    """Détermine la catégorie fiscal ou compta par mots-clés.
+    """Determine la categorie fiscal ou compta par mots-cles.
     Retourne None si l'article est hors scope (exclu)."""
     text = (title + " " + summary).lower()
 
@@ -168,13 +165,13 @@ def categorize(title, summary, hint):
         return hint
 
     if score_fiscal == 0 and score_compta == 0:
-        return None  # aucun mot-clé, on n'inclut pas
+        return None  # aucun mot-cle, on n'inclut pas
 
     return "fiscal" if score_fiscal >= score_compta else "compta"
 
 
 def parse_date(entry):
-    """Extrait et normalise la date d'une entrée RSS."""
+    """Extrait et normalise la date d'une entree RSS."""
     try:
         if hasattr(entry, 'published_parsed') and entry.published_parsed:
             dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
@@ -191,7 +188,7 @@ def parse_date(entry):
         return now.strftime('%d/%m/%Y'), now.strftime('%Y-%m-%d')
 
 
-# ─── CHARGEMENT DE L'HISTORIQUE ───────────────────────────────────────────────
+# ??? CHARGEMENT DE L'HISTORIQUE ???????????????????????????????????????????????
 
 def load_existing(filepath='news.json'):
     if os.path.exists(filepath):
@@ -203,15 +200,15 @@ def load_existing(filepath='news.json'):
     return []
 
 
-# ─── SCRAPING RSS ─────────────────────────────────────────────────────────────
+# ??? SCRAPING RSS ?????????????????????????????????????????????????????????????
 
 def fetch_source(source):
-    """Récupère et parse le flux RSS d'une source."""
+    """Recupere et parse le flux RSS d'une source."""
     print(f"  > {source['name']} : {source['url']}")
     articles = []
 
     try:
-        # On passe par requests pour gérer les timeouts et les redirections
+        # On passe par requests pour gerer les timeouts et les redirections
         headers = {'User-Agent': 'VeilleCG/1.0 (+https://github.com/veille-cg)'}
         resp = requests.get(source['url'], headers=headers, timeout=15)
         resp.raise_for_status()
@@ -239,11 +236,11 @@ def fetch_source(source):
                 continue  # article hors scope compta/fiscal
 
             articles.append({
-                "id": link,  # utilisé pour la déduplication
+                "id": link,  # utilise pour la deduplication
                 "date": date_display,
                 "date_iso": date_iso,
                 "title": title,
-                "summary": summary if summary else "Résumé non disponible.",
+                "summary": summary if summary else "Resume non disponible.",
                 "source": source['name'],
                 "link": link,
                 "category": category
@@ -261,7 +258,7 @@ def fetch_source(source):
     return articles
 
 
-# ─── FUSION & DÉDUPLICATION ───────────────────────────────────────────────────
+# ??? FUSION & DEDUPLICATION ???????????????????????????????????????????????????
 
 def merge(existing, new_articles):
     existing_ids = {item['id'] for item in existing if 'id' in item}
@@ -276,20 +273,20 @@ def merge(existing, new_articles):
             existing_links.add(article['link'])
             added += 1
 
-    # Tri par date décroissante
+    # Tri par date decroissante
     existing.sort(key=lambda x: x.get('date_iso', ''), reverse=True)
     return existing, added
 
 
-# ─── SAUVEGARDE ───────────────────────────────────────────────────────────────
+# ??? SAUVEGARDE ???????????????????????????????????????????????????????????????
 
 def save(data, filepath='news.json'):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"\n✓ {filepath} sauvegardé ({len(data)} articles au total)")
+    print(f"\nOK {filepath} sauvegarde ({len(data)} articles au total)")
 
 
-# ─── MAIN ─────────────────────────────────────────────────────────────────────
+# ??? MAIN ?????????????????????????????????????????????????????????????????????
 
 def main():
     print("=" * 55)
@@ -298,23 +295,37 @@ def main():
 
     # Sources indisponibles
     if SOURCES_INDISPONIBLES:
-        print("\n⚠ Sources sans RSS public (vérification manuelle) :")
+        print("\n! Sources sans RSS public (verification manuelle) :")
         for s in SOURCES_INDISPONIBLES:
             print(f"  - {s}")
 
     # Chargement de l'historique
-    print(f"\nChargement de l'historique…")
+    print(f"\nChargement de l'historique...")
     existing = load_existing('news.json')
     print(f"  {len(existing)} articles en base")
 
     # Scraping
-    print(f"\nRécupération des flux RSS…")
+    print(f"\nRecuperation des flux RSS...")
     all_new = []
     for source in SOURCES:
         articles = fetch_source(source)
         all_new.extend(articles)
 
-    print(f"\n  {len(all_new)} articles récupérés au total")
+    print(f"\n  {len(all_new)} articles recuperes au total")
 
     # Fusion
-    merge
+    merged, added = merge(existing, all_new)
+    print(f"  {added} nouveaux articles ajoutes")
+
+    # Repartition par categorie
+    fiscal = sum(1 for a in merged if a.get('category') == 'fiscal')
+    compta = sum(1 for a in merged if a.get('category') == 'compta')
+    print(f"  Repartition : {fiscal} fiscal | {compta} compta")
+
+    # Sauvegarde
+    save(merged, 'news.json')
+    print("=" * 55)
+
+
+if __name__ == '__main__':
+    main()
