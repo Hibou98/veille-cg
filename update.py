@@ -1,5 +1,28 @@
 #!/usr/bin/env python3
 print("DEBUT DU SCRIPT", flush=True)
+print("IMPORTS OK", flush=True)
+#!/usr/bin/env python3
+print("DEBUT DU SCRIPT", flush=True)
+
+import json
+import re
+import os
+from datetime import datetime, timezone
+from html.parser import HTMLParser
+
+try:
+    import feedparser
+except ImportError:
+    print("ERREUR : feedparser non installé.")
+    exit(1)
+
+try:
+    import requests
+except ImportError:
+    print("ERREUR : requests non installé.")
+    exit(1)
+
+print("IMPORTS OK", flush=True)
 """
 VeilleCG - Script de mise à jour automatique du news.json
 Sources : Légifrance, BOFiP, ANC, Compta Online, Village Justice, Francis Lefebvre
