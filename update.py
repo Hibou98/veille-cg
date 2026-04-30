@@ -26,21 +26,6 @@ except ImportError:
 
 SOURCES = [
     {
-        "name": "LegifrSSS — Lois fiscales",
-        "url": "https://legifrss.org/latest?nature=loi&q=fiscal",
-        "category_hint": "fiscal",
-    },
-    {
-        "name": "LegifrSSS — Ordonnances",
-        "url": "https://legifrss.org/latest?nature=ordonnance&q=impot",
-        "category_hint": "fiscal",
-    },
-    {
-        "name": "Village Justice — Fiscal",
-        "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
-        "category_hint": "fiscal",
-    },
-    {
         "name": "Expert-Sup — Droit fiscal",
         "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=53",
         "category_hint": "fiscal",
@@ -51,9 +36,29 @@ SOURCES = [
         "category_hint": "compta",
     },
     {
-        "name": "Valoxy — Compta/Fiscal",
+        "name": "Valoxy",
         "url": "https://valoxy.org/blog/feed/",
         "category_hint": None,
+    },
+    {
+        "name": "Le Monde du Chiffre — Compta",
+        "url": "https://www.lemondeduchiffre.fr/comptabilite.html?type=rss",
+        "category_hint": "compta",
+    },
+    {
+        "name": "Le Monde du Chiffre — Fiscal",
+        "url": "https://www.lemondeduchiffre.fr/fiscalite.html?type=rss",
+        "category_hint": "fiscal",
+    },
+    {
+        "name": "Village Justice — Fiscal",
+        "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
+        "category_hint": "fiscal",
+    },
+    {
+        "name": "ANC",
+        "url": "https://www.anc.gouv.fr/spip.php?page=backend",
+        "category_hint": "compta",
     },
 ]
 
