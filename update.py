@@ -62,28 +62,8 @@ SOURCES = [
         "category_hint": "fiscal",
     },
     {
-        "name": "OEC Paris",
-        "url": "https://www.oec-paris.fr/feed/",
-        "category_hint": "compta",
-    },
-    {
-        "name": "Ordre Experts Comptables",
-        "url": "https://www.experts-comptables.fr/feed/",
-        "category_hint": "compta",
-    },
-    {
-        "name": "Le Monde du Chiffre",
-        "url": "https://www.lemondeduchiffre.fr/?format=feed&type=rss",
-        "category_hint": "compta",
-    },
-    {
-        "name": "FocusIFRS",
-        "url": "http://www.focusifrs.com/spip.php?page=backend",
-        "category_hint": "compta",
-    },
-    {
-        "name": "La Profession Comptable",
-        "url": "https://www.laprofessioncomptable.com/feed/",
+        "name": "BOSS",
+        "url": "http://boss.gouv.fr/portail/fil-rss/pagecontent/flux-actualites.rss",
         "category_hint": "compta",
     },
 ]
