@@ -21,6 +21,8 @@ jobs:
       - name: Installation des dépendances
         run: pip install feedparser requests
       - name: Exécution du script
+        env:
+          PYTHONUNBUFFERED: "1"
         run: python update.py
       - name: Commit et push
         run: |
