@@ -8,12 +8,11 @@ import json
 import re
 import os
 import sys
-import io
+
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 
-# Force UTF-8 output
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
 
 try:
     import feedparser
