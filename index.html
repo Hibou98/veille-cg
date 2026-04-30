@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeilleCG — Fiscal & Comptable</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f0f11;
+            --surface: #18181c;
+            --surface2: #222228;
+            --border: #2a2a32;
+            --accent-fiscal: #4f8ef7;
+            --accent-compta: #34d399;
+            --text: #e8e8f0;
+            --text-muted: #6b6b80;
+            --text-dim: #3a3a48;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'DM Sans', sans-serif;
+            min-height: 100vh;
+        }
+
+        /* HEADER */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(15,15,17,0.92);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-inner {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 16px 20px 0;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .logo {
+            font-family: 'Syne', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--text);
+        }
+
+        .logo span {
+            color: var(--accent-fiscal);
+        }
+
+        .update-badge {
+            text-align: right;
+        }
+
+        .update-label {
+            font-family: 'DM Mono', monospace;
+            font-size: 9px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .update-date {
+            font-family: 'DM Mono', monospace;
+            font-size: 11px;
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        /* SEARCH */
+        .search-area {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 0;
+        }
+
+        .search-wrap {
+            position: relative;
+        }
+
+        .search-wrap input {
+            width: 100%;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 14px 10px 38px;
+            color: var(--text);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-wrap input:focus {
+            border-color: var(--accent-fiscal);
+        }
+
+        .search-wrap input::placeholder { color: var(--text-muted); }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 8px;
+        }
+
+        .filter-row input[type="date"] {
+            flex: 1;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 14px;
+            color: var(--text);
+            font-family: 'DM Mono', monospace;
+            font-size: 12px;
+            outline: none;
+            transition: border-color 0.2s;
+            color-scheme: dark;
+        }
+
+        .filter-row input[type="date"]:focus {
+            border-color: var(--accent-fiscal);
+        }
+
+        .btn-raz {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 16px;
+            color: var(--text-muted);
+            font-family: 'DM Mono', monospace;
+            font-size: 11px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-raz:hover {
+            color: var(--text);
+            border-color: var(--text-muted);
+        }
+
+        /* TABS */
+        nav {
+            display: flex;
+            max-width: 680px;
+            margin: 12px auto 0;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 12px;
+            background: none;
+            border: none;
+            border-bottom: 2px solid transparent;
+            color: var(--text-muted);
+            font-family: 'DM Mono', monospace;
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active-fiscal {
+            color: var(--accent-fiscal);
+            border-bottom-color: var(--accent-fiscal);
+        }
+
+        .tab-btn.active-compta {
+            color: var(--accent-compta);
+            border-bottom-color: var(--accent-compta);
+        }
+
+        /* CONTENT */
+        main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 20px 20px 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* STATS BAR */
+        .stats-bar {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+            padding: 4px 0 8px;
+        }
+
+        /* CARD */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 18px 20px;
+            transition: border-color 0.2s, transform 0.1s;
+            cursor: default;
+        }
+
+        .card:hover {
+            border-color: var(--surface2);
+        }
+
+        .card:active {
+            transform: scale(0.99);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .card-date {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+        }
+
+        .source-tag {
+            font-family: 'DM Mono', monospace;
+            font-size: 9px;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: var(--surface2);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+        }
+
+        .card-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 1.35;
+            margin-bottom: 8px;
+        }
+
+        .card-summary {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 14px;
+        }
+
+        .card-footer {
+            border-top: 1px solid var(--border);
+            padding-top: 12px;
+        }
+
+        .card-link {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: opacity 0.15s;
+        }
+
+        .card-link:hover { opacity: 0.7; }
+
+        .fiscal-link { color: var(--accent-fiscal); }
+        .compta-link { color: var(--accent-compta); }
+
+        /* SKELETON */
+        .skeleton {
+            background: linear-gradient(90deg, var(--surface) 25%, var(--surface2) 50%, var(--surface) 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            border-radius: 14px;
+            height: 140px;
+            border: 1px solid var(--border);
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        /* EMPTY STATE */
+        .empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+
+        .empty-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+            opacity: 0.4;
+        }
+
+        .empty-text {
+            font-family: 'DM Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        /* FOOTER */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15,15,17,0.95);
+            border-top: 1px solid var(--border);
+            padding: 10px 20px;
+            text-align: center;
+            z-index: 50;
+        }
+
+        .footer-text {
+            font-family: 'DM Mono', monospace;
+            font-size: 9px;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="header-top">
+            <div class="logo">Veille<span>CG</span></div>
+            <div class="update-badge">
+                <div class="update-label">Mise à jour</div>
+                <div class="update-date" id="last-update">—</div>
+            </div>
+        </div>
+
+        <div class="search-area">
+            <div class="search-wrap">
+                <span class="search-icon">⌕</span>
+                <input type="text" id="search" placeholder="Rechercher un mot clé…">
+            </div>
+            <div class="filter-row">
+                <input type="date" id="date-filter">
+                <button class="btn-raz" onclick="resetFilters()">RAZ</button>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <button class="tab-btn active-fiscal" id="tab-fiscal" onclick="switchTab('fiscal')">Fiscal</button>
+        <button class="tab-btn" id="tab-compta" onclick="switchTab('compta')">Compta</button>
+    </nav>
+</header>
+
+<main id="content">
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+</main>
+
+<footer>
+    <div class="footer-text">Légifrance · BOFiP · ANC · Compta Online · Francis Lefebvre · Village Justice</div>
+</footer>
+
+<script>
+    let currentTab = 'fiscal';
+    let newsData = [];
+    const searchInput = document.getElementById('search');
+    const dateInput = document.getElementById('date-filter');
+
+    async function loadNews() {
+        try {
+            const response = await fetch('news.json?t=' + Date.now());
+            if (!response.ok) throw new Error('news.json introuvable');
+            newsData = await response.json();
+            if (newsData.length > 0) {
+                document.getElementById('last-update').innerText = newsData[0].date;
+            }
+            renderNews();
+        } catch (e) {
+            document.getElementById('content').innerHTML = `
+                <div class="empty">
+                    <div class="empty-icon">⚠</div>
+                    <div class="empty-text">Données non disponibles<br>Vérifiez que news.json existe</div>
+                </div>`;
+        }
+    }
+
+    function renderNews() {
+        const container = document.getElementById('content');
+        container.innerHTML = '';
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const filterDate = dateInput.value;
+
+        const filtered = newsData.filter(item => {
+            const matchesTab = item.category === currentTab;
+            const matchesSearch = !searchTerm ||
+                item.title.toLowerCase().includes(searchTerm) ||
+                item.summary.toLowerCase().includes(searchTerm) ||
+                item.source.toLowerCase().includes(searchTerm);
+            const matchesDate = !filterDate || item.date_iso === filterDate;
+            return matchesTab && matchesSearch && matchesDate;
+        });
+
+        if (filtered.length === 0) {
+            container.innerHTML = `
+                <div class="empty">
+                    <div class="empty-icon">∅</div>
+                    <div class="empty-text">Aucun résultat</div>
+                </div>`;
+            return;
+        }
+
+        const statsBar = document.createElement('div');
+        statsBar.className = 'stats-bar';
+        statsBar.textContent = `${filtered.length} article${filtered.length > 1 ? 's' : ''}`;
+        container.appendChild(statsBar);
+
+        const accentColor = currentTab === 'fiscal' ? 'var(--accent-fiscal)' : 'var(--accent-compta)';
+        const linkClass = currentTab === 'fiscal' ? 'fiscal-link' : 'compta-link';
+
+        filtered.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="card-header">
+                    <span class="card-date">${item.date}</span>
+                    <span class="source-tag">${item.source}</span>
+                </div>
+                <div class="card-title">${item.title}</div>
+                <div class="card-summary">${item.summary}</div>
+                <div class="card-footer">
+                    <a href="${item.link}" target="_blank" rel="noopener" class="card-link ${linkClass}">
+                        Lire la suite ↗
+                    </a>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function switchTab(tab) {
+        currentTab = tab;
+        document.getElementById('tab-fiscal').className = `tab-btn ${tab === 'fiscal' ? 'active-fiscal' : ''}`;
+        document.getElementById('tab-compta').className = `tab-btn ${tab === 'compta' ? 'active-compta' : ''}`;
+        renderNews();
+    }
+
+    function resetFilters() {
+        searchInput.value = '';
+        dateInput.value = '';
+        renderNews();
+    }
+
+    searchInput.addEventListener('input', renderNews);
+    dateInput.addEventListener('change', renderNews);
+
+    loadNews();
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+    }
+</script>
+
+</body>
+</html>
