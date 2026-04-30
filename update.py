@@ -62,13 +62,28 @@ SOURCES = [
         "category_hint": "fiscal",
     },
     {
-        "name": "La Profession Comptable",
-        "url": "https://www.laprofessioncomptable.com/feed/",
+        "name": "OEC Paris",
+        "url": "https://www.oec-paris.fr/feed/",
+        "category_hint": "compta",
+    },
+    {
+        "name": "Ordre Experts Comptables",
+        "url": "https://www.experts-comptables.fr/feed/",
+        "category_hint": "compta",
+    },
+    {
+        "name": "Le Monde du Chiffre",
+        "url": "https://www.lemondeduchiffre.fr/?format=feed&type=rss",
         "category_hint": "compta",
     },
     {
         "name": "FocusIFRS",
         "url": "http://www.focusifrs.com/spip.php?page=backend",
+        "category_hint": "compta",
+    },
+    {
+        "name": "La Profession Comptable",
+        "url": "https://www.laprofessioncomptable.com/feed/",
         "category_hint": "compta",
     },
 ]
@@ -90,6 +105,15 @@ MOTS_EXCLUSION = [
     "droit de la sante", "droit de la consommation",
     "propriete intellectuelle", "marque deposee", "brevet d'invention",
     "droit penal", "infraction", "garde a vue", "tribunal correctionnel",
+]
+
+# Mots exclus specifiquement dans le TITRE
+TITRES_EXCLUSION = [
+    "decret", "arrete", "ordonnance", "circulaire",
+    "nomination", "avis de vacance", "avis de concours",
+    "portant nomination", "portant organisation",
+    "relatif aux traitements", "relatif a l'organisation",
+    "portant diverses dispositions",
 ]
 
 # ??? MOTS-CLES POUR LA CATEGORISATION ?????????????????????????????????????????
@@ -152,7 +176,12 @@ def truncate(text, max_chars=300):
 def categorize(title, summary, hint):
     """Determine la categorie fiscal ou compta par mots-cles.
     Retourne None si l'article est hors scope (exclu)."""
+    title_lower = title.lower()
     text = (title + " " + summary).lower()
+
+    # Exclusion sur le titre seul - rejette decrets, arretes etc.
+    if any(mot in title_lower for mot in TITRES_EXCLUSION):
+        return None
 
     score_fiscal = sum(1 for mot in MOTS_FISCAL if mot in text)
     score_compta = sum(1 for mot in MOTS_COMPTA if mot in text)
