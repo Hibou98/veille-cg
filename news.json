@@ -328,5 +328,305 @@
     "source": "LegifrSSS (JORF)",
     "link": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053958042",
     "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/bareme-kilometrique-2026/",
+    "date": "13/04/2026",
+    "date_iso": "2026-04-13",
+    "title": "Le barème kilométrique 2026",
+    "summary": "L’administration vient de publier le barème kilométrique 2026 à appliquer en 2026 sur la déclaration des revenus 2025. Il n’a pas évolué depuis 2023. Valoxy, cabinet d’expertise comptable dans les Hauts de France, présente ici le « nouveau » barème kilométrique 2026.... L’article Le barème…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/bareme-kilometrique-2026/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/la-declaration-dimpots-2026/",
+    "date": "10/04/2026",
+    "date_iso": "2026-04-10",
+    "title": "La déclaration d’impôts 2026",
+    "summary": "La déclaration d’impôts 2026 permet le calcul de l’impôt dû par le contribuable pour ses revenus de 2025. Cette année, le service en ligne de déclaration des revenus de 2025 a ouvert le jeudi 9 Avril 2025. Quels sont les... L’article La déclaration d’impôts 2026 est apparu en premier sur Blog…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/la-declaration-dimpots-2026/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/bareme-des-frais-de-carburant/",
+    "date": "08/04/2026",
+    "date_iso": "2026-04-08",
+    "title": "Le barème des frais de carburant 2026",
+    "summary": "L’administration fiscale publie chaque année un barème d’évaluation forfaitaire des frais de carburant. Les professionnels relevant des BIC ou des BA se servent de ce barème pour calculer leurs frais professionnels de carburant de manière forfaitaire. (Article 302 septies A... L’article Le barème…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/bareme-des-frais-de-carburant/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/quotient-familial/",
+    "date": "07/04/2026",
+    "date_iso": "2026-04-07",
+    "title": "Le quotient familial",
+    "summary": "Le quotient familial utilisé par l’administration fiscale permet de tenir compte du nombre de personnes composant le foyer, et des charges de famille, pour le calcul de l’impôt sur le revenu. Comment est-il déterminé ? Sur quelles bases ? Comment... L’article Le quotient familial est apparu en…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/quotient-familial/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/developper-lautonomie-grace-a-la-formation/",
+    "date": "31/03/2026",
+    "date_iso": "2026-03-31",
+    "title": "Développer l’autonomie grâce à la formation",
+    "summary": "Développer l’autonomie grâce à la formation est un impératif d’émancipation personnelle et de réussite de l’entreprise. Dans un environnement professionnel marqué par l’incertitude, l’accélération des transformations et la complexification des métiers, l’autonomie des collaborateurs n’est pas qu’un…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/developper-lautonomie-grace-a-la-formation/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/obligation-demploi-des-travailleurs-handicapes/",
+    "date": "30/03/2026",
+    "date_iso": "2026-03-30",
+    "title": "L’OETH (Obligation d’Emploi des Travailleurs Handicapés)",
+    "summary": "L’OETH (Obligation d’Emploi des Travailleurs Handicapés) impose aux entreprises d’au moins 20 salariés d’employer un minimum de 6 % de travailleurs handicapés. Elle a pour objectif de favoriser l’emploi des personnes handicapées dans les entreprises. Valoxy, cabinet d’expertise comptable dans...…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/obligation-demploi-des-travailleurs-handicapes/",
+    "category": "compta"
+  },
+  {
+    "id": "https://valoxy.org/blog/la-dsn-de-substitution/",
+    "date": "26/03/2026",
+    "date_iso": "2026-03-26",
+    "title": "La DSN de substitution",
+    "summary": "En 2026, l’URSSAF met en place la Déclaration Sociale Nominative (DSN) de substitution. Ce document permet à l’URSSAF de garantir les droits des salariés, et de modifier les informations transmises mensuellement par les entreprises si elle estime que les montants... L’article La DSN de substitution…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/la-dsn-de-substitution/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/actualites-davril-2026/",
+    "date": "24/03/2026",
+    "date_iso": "2026-03-24",
+    "title": "Actualités Avril 2026",
+    "summary": "Valoxy, cabinet d’expertise comptable dans les Hauts de France, rappelle dans cet article des actualités d’Avril 2026 les dernières mesures sociales et fiscales. Elles ont un impact sur les entreprises, les salariés et les particuliers. Retrouvez aussi nos actualités de... L’article Actualités…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/actualites-davril-2026/",
+    "category": "compta"
+  },
+  {
+    "id": "https://valoxy.org/blog/attribution-gratuite-dactions/",
+    "date": "19/03/2026",
+    "date_iso": "2026-03-19",
+    "title": "L’Attribution Gratuite d’Actions (AGA)",
+    "summary": "Les sociétés par actions ont la possibilité de décider de l’attribution gratuite d’actions (AGA) à leurs salariés. Et ce, sur décision des associés réunis en Assemblée Générale Extraordinaire (AGE). Ce dispositif permet de rémunérer les salariés et de les impliquer... L’article L’Attribution…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/attribution-gratuite-dactions/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/cyberattaques-pme-cibles-faciles/",
+    "date": "19/03/2026",
+    "date_iso": "2026-03-19",
+    "title": "Cyberattaques : pourquoi les PME sont devenues des cibles faciles",
+    "summary": "Les PME sont aujourd’hui devenues les cibles privilégiées des cyberattaques. Moins équipées, moins préparées, elles sont aussi souvent moins conscientes des risques. Et pourtant, une attaque ne se limite pas à un problème informatique : elle peut mettre à l’arrêt... L’article Cyberattaques :…",
+    "source": "Valoxy — Compta/Fiscal",
+    "link": "https://valoxy.org/blog/cyberattaques-pme-cibles-faciles/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/La-digitalisation-du-droit-des-societes-par-actions",
+    "date": "04/12/2024",
+    "date_iso": "2024-12-04",
+    "title": "Balades en expertise La digitalisation du droit des sociétés par actions...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #AssembléeSA-SCA #LoiAttractivité #Digitale La digitalisation du droit des sociétés par actions Participation sans présence…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/La-digitalisation-du-droit-des-societes-par-actions",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Clause-de-mobilite",
+    "date": "04/12/2024",
+    "date_iso": "2024-12-04",
+    "title": "Balades en expertise Clause de mobilité...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #EncadrementJurisprudentiel #ConventionCollective #ContratDeTravail Clause de mobilité Définition de la clause de mobilité…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Clause-de-mobilite",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/La-clause-de-non-concurrence",
+    "date": "04/10/2024",
+    "date_iso": "2024-10-04",
+    "title": "Balades en expertise La clause de non concurrence...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #Entreprise #EncadrementJuridique #Intérêt #Employeur Clause de non concurrence En fonction des profils et des fonctions…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/La-clause-de-non-concurrence",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/New-Public-Management",
+    "date": "30/07/2024",
+    "date_iso": "2024-07-30",
+    "title": "Balades en expertise New Public Management...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #NPM #NewPublicManagement #PublicServices #NeoLiberalism #MarketOrientation #Performance Management #Decentralization #Accountability (...) -…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/New-Public-Management",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Global-Supply-Chain-Issues",
+    "date": "30/07/2024",
+    "date_iso": "2024-07-30",
+    "title": "Balades en expertise Global Supply Chain Issues...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #SupplyChain #Disruption #Sourcing #Manufacturing #Distribution #Retailing #Procurement #Logistics #Transportation #Protectionism #Slowdown (...) -…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Global-Supply-Chain-Issues",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/The-US-China-Trade-War",
+    "date": "30/07/2024",
+    "date_iso": "2024-07-30",
+    "title": "Balades en expertise The US-China Trade War...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #USA #China #Trade #TradeWar #TradeImbalance #IntellectualPropoertyTheft #TechnologyCompetition #GeopoliticalTensions #TradeDispute #TradeSurplus…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/The-US-China-Trade-War",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/The-Great-Resignation",
+    "date": "30/07/2024",
+    "date_iso": "2024-07-30",
+    "title": "Balades en expertise The Great Resignation...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #GreatResignation #BigQuit #JobMarket #Covid-19 The Great Resignation Welcome to the series of DUNOD podcasts designed to help improve your (...) -…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/The-Great-Resignation",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Competition-Laws",
+    "date": "30/07/2024",
+    "date_iso": "2024-07-30",
+    "title": "Balades en expertise Competition Laws...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #Competition #Antitrustlaws #Monopolies #Cartels #ConsumerProtection #Innovation #CompetitionAuthorities #Whistleblower #LuxLeaks #CNMC (...) -…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Competition-Laws",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/BRICS",
+    "date": "30/07/2024",
+    "date_iso": "2024-07-30",
+    "title": "Balades en expertise BRICS...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #BRICS #NewMembers #Dollar #G7 #Rival #Russia #Brazil #India #China #SouthAfrica #Argentina #Egypt #Ethiopia #Iran #SaudiArabia #UnitedArabEmirates…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/BRICS",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Benevolent-Management",
+    "date": "25/07/2024",
+    "date_iso": "2024-07-25",
+    "title": "Balades en expertise Benevolent Management...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #BenevolentManagement #Management #Leadership #Productivity #Empathy #Trust #Collaboration #Loyalty #Honesty #Integrity #Wellbeing #Transparency…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Benevolent-Management",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/AI-and-the-Job-Market",
+    "date": "25/07/2024",
+    "date_iso": "2024-07-25",
+    "title": "Balades en expertise AI and the Job Market...",
+    "summary": "Décrypté par Jean-François Allafort, co-auteur des Fiches DCG UE12 Anglais des affaires, collection « Expert Sup », Dunod, et présenté par Ian Waddelow #AI #ArtificialIntelligence #JobMarket #Technology #Skills #Reskilling #Automation #JobDisplacement #Performance #Employment #Patterns #Innovation…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/AI-and-the-Job-Market",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/L-abandon-de-poste",
+    "date": "05/07/2024",
+    "date_iso": "2024-07-05",
+    "title": "Balades en expertise L'abandon de poste...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #Démission #RuptureContrat #19/04/2023 Abandon de poste Définition de l'abandon de poste ? La loi dite « marché du travail…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/L-abandon-de-poste",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/La-societe-en-formation-apres-les-arrets-du-29-novembre-2023",
+    "date": "25/06/2024",
+    "date_iso": "2024-06-25",
+    "title": "Balades en expertise La société en formation après les arrêts du 29 novembre 2023...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #Paiement #Jurisprudence #ResponsabilitéDesAssociés #IntentionCommune La société en formation après les arrêts du 29 (...)…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/La-societe-en-formation-apres-les-arrets-du-29-novembre-2023",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Les-politiques-de-la-concurrence",
+    "date": "17/06/2024",
+    "date_iso": "2024-06-17",
+    "title": "Balades en expertise Les politiques de la concurrence...",
+    "summary": "Décrypté par Audrey Meyer, professeur en classes préparatoires à l'expertise comptable, coauteur du manuel DCG 9 et du « Expert DCG 1re année », ouvrage complet de préparation à l'épreuve. #AutoritéDeLaConcurrenceFrançaise #AFP #Entente Les politiques de la concurrence En mars 2024, l'Autorité de…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Les-politiques-de-la-concurrence",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Trouble-anormal-de-voisinage-loi-du-15-avril-2024",
+    "date": "02/06/2024",
+    "date_iso": "2024-06-02",
+    "title": "Balades en expertise Trouble anormal de voisinage loi du 15 avril 2024...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #PrincipeDeResponsabilité #15Avril2024 #Voisinage Trouble anormal de voisinage loi du 15 avril 2024 Un nouveau texte de loi…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Trouble-anormal-de-voisinage-loi-du-15-avril-2024",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/L-abus-de-confiance",
+    "date": "14/05/2024",
+    "date_iso": "2024-05-14",
+    "title": "Balades en expertise L'abus de confiance...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #Délit #CodePénal #Détournement L'abus de confiance après l'arrêt du 13 mars 2024 Qu'est-ce que l'abus de confiance ?…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/L-abus-de-confiance",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Le-commerce-exterieur",
+    "date": "15/04/2024",
+    "date_iso": "2024-04-15",
+    "title": "Balades en expertise Le commerce extérieur...",
+    "summary": "Décrypté par Audrey Meyer, professeur en classes préparatoires à l'expertise comptable, coauteur du manuel DCG 9 et du « Expert DCG 1re année », ouvrage complet de préparation à l'épreuve. Retrouvez la retranscription complète de ce podcast ainsi que des éléments pour \"aller plus loin\" sur…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Le-commerce-exterieur",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/L-ajustement-et-le-rattachement-des-charges-et-des-produits-au-resultat-de-l",
+    "date": "14/04/2024",
+    "date_iso": "2024-04-14",
+    "title": "Balades en expertise L'ajustement et le rattachement des charges et des produits au résultat de l'exercice...",
+    "summary": "Décrypté par Audrey Meyer, professeur en classes préparatoires à l'expertise comptable, coauteur du manuel DCG 9 et du « Expert DCG 1re année », ouvrage complet de préparation à l'épreuve. #ContrePassassion #RésultatDeL'Exercice #PrincipeD'Indépendance L'ajustement et le rattachement des charges et…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/L-ajustement-et-le-rattachement-des-charges-et-des-produits-au-resultat-de-l",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Le-Parlement-europeen-et-les-elections-de-2024",
+    "date": "02/04/2024",
+    "date_iso": "2024-04-02",
+    "title": "Balades en expertise Le Parlement européen et les élections de 2024...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #Élections #État #Députés Le Parlement européen et les élections de 2024 La spécificité du Parlement européen Les élections…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Le-Parlement-europeen-et-les-elections-de-2024",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.expert-sup.com/Le-DMA-Digital-Market-Act",
+    "date": "02/04/2024",
+    "date_iso": "2024-04-02",
+    "title": "Balades en expertise Le DMA (Digital Market Act)...",
+    "summary": "Décryptée par Martine Mariage et Jean-François Bocquillon, professeur en classes préparatoires à l'expertise comptable et coauteurs des manuels DCG 1 à 3 « Expert Sup » Dunod. #DMA #TikTok #GAFAM Le DMA (Digital Market Act) Qu'est-ce que le DMA ? Le DMA c'est le Digital Market Act. C'est un (...) -…",
+    "source": "Expert-Sup — Droit fiscal",
+    "link": "https://www.expert-sup.com/Le-DMA-Digital-Market-Act",
+    "category": "fiscal"
   }
 ]
