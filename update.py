@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+print("DEBUT DU SCRIPT", flush=True)
 """
 VeilleCG - Script de mise à jour automatique du news.json
 Sources : Légifrance, BOFiP, ANC, Compta Online, Village Justice, Francis Lefebvre
