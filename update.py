@@ -36,29 +36,29 @@ SOURCES = [
         "category_hint": "compta",
     },
     {
+        "name": "Fiscalonline",
+        "url": "https://fiscalonline.com/rss",
+        "category_hint": "fiscal",
+    },
+    {
+        "name": "Actuel Expert Comptable — Compta",
+        "url": "https://www.actuel-expert-comptable.fr/rss/comptabilite",
+        "category_hint": "compta",
+    },
+    {
+        "name": "Actuel Expert Comptable — Fiscal",
+        "url": "https://www.actuel-expert-comptable.fr/rss/fiscal",
+        "category_hint": "fiscal",
+    },
+    {
         "name": "Valoxy",
         "url": "https://valoxy.org/blog/feed/",
         "category_hint": None,
     },
     {
-        "name": "Le Monde du Chiffre — Compta",
-        "url": "https://www.lemondeduchiffre.fr/comptabilite.html?type=rss",
-        "category_hint": "compta",
-    },
-    {
-        "name": "Le Monde du Chiffre — Fiscal",
-        "url": "https://www.lemondeduchiffre.fr/fiscalite.html?type=rss",
-        "category_hint": "fiscal",
-    },
-    {
         "name": "Village Justice — Fiscal",
         "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
         "category_hint": "fiscal",
-    },
-    {
-        "name": "ANC",
-        "url": "https://www.anc.gouv.fr/spip.php?page=backend",
-        "category_hint": "compta",
     },
 ]
 
