@@ -26,12 +26,12 @@ except ImportError:
 
 SOURCES = [
     {
-        "name": "Expert-Sup — Droit fiscal",
+        "name": "Expert-Sup Fiscal",
         "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=53",
         "category_hint": "fiscal",
     },
     {
-        "name": "Expert-Sup — Comptable",
+        "name": "Expert-Sup Comptable",
         "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=56",
         "category_hint": "compta",
     },
@@ -46,17 +46,17 @@ SOURCES = [
         "category_hint": None,
     },
     {
-        "name": "Village Justice — Fiscal",
+        "name": "Village Justice Fiscal",
         "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
         "category_hint": "fiscal",
     },
     {
-        "name": "Compta Online — Comptabilité",
+        "name": "Compta Online Comptabilite",
         "url": "https://www.compta-online.com/comptabilite?format=feed&type=rss",
         "category_hint": "compta",
     },
     {
-        "name": "Compta Online — Fiscalité",
+        "name": "Compta Online Fiscalite",
         "url": "https://www.compta-online.com/fiscalite?format=feed&type=rss",
         "category_hint": "fiscal",
     },
