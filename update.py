@@ -1,28 +1,4 @@
 #!/usr/bin/env python3
-print("DEBUT DU SCRIPT", flush=True)
-print("IMPORTS OK", flush=True)
-#!/usr/bin/env python3
-print("DEBUT DU SCRIPT", flush=True)
-
-import json
-import re
-import os
-from datetime import datetime, timezone
-from html.parser import HTMLParser
-
-try:
-    import feedparser
-except ImportError:
-    print("ERREUR : feedparser non installé.")
-    exit(1)
-
-try:
-    import requests
-except ImportError:
-    print("ERREUR : requests non installé.")
-    exit(1)
-
-print("IMPORTS OK", flush=True)
 """
 VeilleCG - Script de mise à jour automatique du news.json
 Sources : Légifrance, BOFiP, ANC, Compta Online, Village Justice, Francis Lefebvre
@@ -50,12 +26,12 @@ except ImportError:
 
 SOURCES = [
     {
-        "name": "Expert-Sup Fiscal",
+        "name": "Expert-Sup - Droit fiscal",
         "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=53",
         "category_hint": "fiscal",
     },
     {
-        "name": "Expert-Sup Comptable",
+        "name": "Expert-Sup - Comptable",
         "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=56",
         "category_hint": "compta",
     },
@@ -70,17 +46,17 @@ SOURCES = [
         "category_hint": None,
     },
     {
-        "name": "Village Justice Fiscal",
+        "name": "Village Justice - Fiscal",
         "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
         "category_hint": "fiscal",
     },
     {
-        "name": "Compta Online Comptabilite",
+        "name": "Compta Online - Comptabilite",
         "url": "https://www.compta-online.com/comptabilite?format=feed&type=rss",
         "category_hint": "compta",
     },
     {
-        "name": "Compta Online Fiscalite",
+        "name": "Compta Online - Fiscalite",
         "url": "https://www.compta-online.com/fiscalite?format=feed&type=rss",
         "category_hint": "fiscal",
     },
