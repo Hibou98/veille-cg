@@ -26,18 +26,8 @@ except ImportError:
 
 SOURCES = [
     {
-        "name": "Légifrance",
-        "url": "https://www.legifrance.gouv.fr/feeds/jorf",
-        "category_hint": None,
-    },
-    {
-        "name": "BOFiP",
-        "url": "https://bofip.impots.gouv.fr/flux-rss",
-        "category_hint": "fiscal",
-    },
-    {
-        "name": "Compta Online",
-        "url": "http://www.compta-online.com/flux-rss.php",
+        "name": "LegifrSSS (JORF)",
+        "url": "https://legifrss.org/latest",
         "category_hint": None,
     },
     {
@@ -46,14 +36,24 @@ SOURCES = [
         "category_hint": None,
     },
     {
-        "name": "Actuel Expert Comptable",
-        "url": "https://www.actuel-expert-comptable.fr/rss",
-        "category_hint": None,
+        "name": "BOSS",
+        "url": "http://boss.gouv.fr/portail/fil-rss/pagecontent/flux-actualites.rss",
+        "category_hint": "fiscal",
     },
     {
         "name": "Economie.gouv.fr",
-        "url": "https://www.economie.gouv.fr/rss/actualites.xml",
+        "url": "https://www.economie.gouv.fr/rss/presse.xml",
         "category_hint": "fiscal",
+    },
+    {
+        "name": "Actu-Juridique Fiscal",
+        "url": "https://www.actu-juridique.fr/rss/fiscal",
+        "category_hint": "fiscal",
+    },
+    {
+        "name": "Actu-Juridique Affaires",
+        "url": "https://www.actu-juridique.fr/rss/affaires",
+        "category_hint": "compta",
     },
 ]
 
