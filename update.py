@@ -41,16 +41,6 @@ SOURCES = [
         "category_hint": "fiscal",
     },
     {
-        "name": "Actuel Expert Comptable — Compta",
-        "url": "https://www.actuel-expert-comptable.fr/rss/comptabilite",
-        "category_hint": "compta",
-    },
-    {
-        "name": "Actuel Expert Comptable — Fiscal",
-        "url": "https://www.actuel-expert-comptable.fr/rss/fiscal",
-        "category_hint": "fiscal",
-    },
-    {
         "name": "Valoxy",
         "url": "https://valoxy.org/blog/feed/",
         "category_hint": None,
@@ -59,6 +49,26 @@ SOURCES = [
         "name": "Village Justice — Fiscal",
         "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
         "category_hint": "fiscal",
+    },
+    {
+        "name": "Compta Online — Comptabilité",
+        "url": "https://www.compta-online.com/comptabilite?format=feed&type=rss",
+        "category_hint": "compta",
+    },
+    {
+        "name": "Compta Online — Fiscalité",
+        "url": "https://www.compta-online.com/fiscalite?format=feed&type=rss",
+        "category_hint": "fiscal",
+    },
+    {
+        "name": "La Profession Comptable",
+        "url": "https://www.laprofessioncomptable.com/feed/",
+        "category_hint": "compta",
+    },
+    {
+        "name": "FocusIFRS",
+        "url": "http://www.focusifrs.com/spip.php?page=backend",
+        "category_hint": "compta",
     },
 ]
 
@@ -307,14 +317,4 @@ def main():
     print(f"  {added} nouveaux articles ajoutés")
 
     # Répartition par catégorie
-    fiscal = sum(1 for a in merged if a.get('category') == 'fiscal')
-    compta = sum(1 for a in merged if a.get('category') == 'compta')
-    print(f"  Répartition : {fiscal} fiscal | {compta} compta")
-
-    # Sauvegarde
-    save(merged, 'news.json')
-    print("=" * 55)
-
-
-if __name__ == '__main__':
-    main()
+    fis
