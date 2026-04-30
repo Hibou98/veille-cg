@@ -26,34 +26,34 @@ except ImportError:
 
 SOURCES = [
     {
-        "name": "LegifrSSS (JORF)",
-        "url": "https://legifrss.org/latest",
-        "category_hint": None,
-    },
-    {
-        "name": "Village Justice",
-        "url": "https://www.village-justice.com/articles/backend.php?op=rss",
-        "category_hint": None,
-    },
-    {
-        "name": "BOSS",
-        "url": "http://boss.gouv.fr/portail/fil-rss/pagecontent/flux-actualites.rss",
+        "name": "LegifrSSS — Lois fiscales",
+        "url": "https://legifrss.org/latest?nature=loi&q=fiscal",
         "category_hint": "fiscal",
     },
     {
-        "name": "Economie.gouv.fr",
-        "url": "https://www.economie.gouv.fr/rss/presse.xml",
+        "name": "LegifrSSS — Ordonnances",
+        "url": "https://legifrss.org/latest?nature=ordonnance&q=impot",
         "category_hint": "fiscal",
     },
     {
-        "name": "Actu-Juridique Fiscal",
-        "url": "https://www.actu-juridique.fr/rss/fiscal",
+        "name": "Village Justice — Fiscal",
+        "url": "https://www.village-justice.com/articles/backend.php?op=rss&rubrique=fiscal",
         "category_hint": "fiscal",
     },
     {
-        "name": "Actu-Juridique Affaires",
-        "url": "https://www.actu-juridique.fr/rss/affaires",
+        "name": "Expert-Sup — Droit fiscal",
+        "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=53",
+        "category_hint": "fiscal",
+    },
+    {
+        "name": "Expert-Sup — Comptable",
+        "url": "https://www.expert-sup.com/spip.php?page=backend&id_rubrique=56",
         "category_hint": "compta",
+    },
+    {
+        "name": "Valoxy — Compta/Fiscal",
+        "url": "https://valoxy.org/blog/feed/",
+        "category_hint": None,
     },
 ]
 
@@ -61,6 +61,19 @@ SOURCES = [
 # Si tu as un abonnement, tu peux ajouter l'URL ici.
 SOURCES_INDISPONIBLES = [
     "Francis Lefebvre (pas de flux RSS public — vérification manuelle requise)"
+]
+
+# ─── MOTS-CLÉS D'EXCLUSION (articles hors scope compta/fiscal) ────────────────
+
+MOTS_EXCLUSION = [
+    "nomination ", "affectation ", "mutation ", "concours de ",
+    "militaire", "armée", "défense nationale", "légion d'honneur", "médaille",
+    "droit social", "droit du travail", "licenciement", "rupture conventionnelle",
+    "droit de la famille", "divorce", "garde d'enfant",
+    "urbanisme", "permis de construire", "droit de l'environnement",
+    "droit de la santé", "droit de la consommation",
+    "propriété intellectuelle", "marque déposée", "brevet d'invention",
+    "droit pénal", "infraction", "garde à vue", "tribunal correctionnel",
 ]
 
 # ─── MOTS-CLÉS POUR LA CATÉGORISATION ─────────────────────────────────────────
@@ -121,16 +134,22 @@ def truncate(text, max_chars=300):
 
 
 def categorize(title, summary, hint):
-    """Détermine la catégorie fiscal ou compta par mots-clés."""
-    if hint in ("fiscal", "compta"):
-        return hint
-
+    """Détermine la catégorie fiscal ou compta par mots-clés.
+    Retourne None si l'article est hors scope (exclu)."""
     text = (title + " " + summary).lower()
+
     score_fiscal = sum(1 for mot in MOTS_FISCAL if mot in text)
     score_compta = sum(1 for mot in MOTS_COMPTA if mot in text)
+    is_excluded = any(mot in text for mot in MOTS_EXCLUSION)
+
+    if is_excluded and score_fiscal == 0 and score_compta == 0:
+        return None  # article hors scope
+
+    if hint in ("fiscal", "compta") and not is_excluded:
+        return hint
 
     if score_fiscal == 0 and score_compta == 0:
-        return "fiscal"  # par défaut si aucun mot-clé trouvé
+        return None  # aucun mot-clé, on n'inclut pas
 
     return "fiscal" if score_fiscal >= score_compta else "compta"
 
@@ -196,6 +215,9 @@ def fetch_source(source):
 
             if not title or title == 'Sans titre':
                 continue
+
+            if category is None:
+                continue  # article hors scope compta/fiscal
 
             articles.append({
                 "id": link,  # utilisé pour la déduplication
