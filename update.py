@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 
 
-
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 try:
     import feedparser
 except ImportError:
