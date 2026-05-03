@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://www.village-justice.com/articles/selection-liberalis-special-jour-ferie-troyes-exposition-qui-ressuscite,57254.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/05/2026",
+    "date_iso": "2026-05-03",
+    "title": "Sélection Liberalis spécial jour férié : Troyes, l'exposition qui ressuscite la splendeur des comtes de Champagne.",
+    "summary": "Fondé au milieu du XIIe siècle par Henri Ier le Libéral, l'Hôtel-Dieu-le-Comte de Troyes fut pendant près de huit siècles un haut lieu d'accueil et de soin pour les plus démunis. Reconstruit au XVIIIe siècle, puis acquis par le Département de l'Aube en 1990, ce vaste ensemble patrimonial s'est...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/selection-liberalis-special-jour-ferie-troyes-exposition-qui-ressuscite,57254.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/lettre-actualite-juridique-avril-2026-cabinet-simon-associes,57255.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "02/05/2026",
     "date_iso": "2026-05-02",
@@ -17,6 +27,26 @@
     "summary": "(Ailleurs dans le Monde) L'interdiction de l'esclavage constitue l'une des rares normes que le droit international élève au rang de jus cogens : une règle impérative, absolue, à laquelle aucun État ne peut déroger. Pourtant, des millions de femmes demeurent soumises, en Afrique subsaharienne, à des...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/esclavage-moderne-jus-cogens-les-femmes-sud-sahara-entre-vulnerabilite-leurs,57213.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/pouvoir-reel-appartient-encore-aux-elus-deja-aux-algorithmes-aux-capitaux-aux,57244.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "02/05/2026",
+    "date_iso": "2026-05-02",
+    "title": "Le pouvoir réel appartient-il encore aux élus, ou déjà aux algorithmes, aux capitaux et aux infrastructures invisibles ? Par Myriam Dami, Risk Manager.",
+    "summary": "La démocratie continue de parler le langage des urnes, des parlements et des gouvernements. Pourtant, une part croissante du pouvoir réel semble désormais se jouer ailleurs : dans les algorithmes, les marchés financiers et les infrastructures techniques invisibles. Dès lors, une question s'impose :...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/pouvoir-reel-appartient-encore-aux-elus-deja-aux-algorithmes-aux-capitaux-aux,57244.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/serons-nous-petits-avocats,57243.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "02/05/2026",
+    "date_iso": "2026-05-02",
+    "title": "Serons-nous de petits avocats de l'IA ? Par Loïc Tertrais, Avocat.",
+    "summary": "Quel avocat n'est pas invité à intégrer l'IA à son activité ? Mais l'avocat qui a un petit côté Cyrano s'interroge immanquablement. Que faudrait-il faire ? Chercher un algorithme puissant, prendre un patron, et comme un paramètre obscur qui circonvient un prompt et s'en fait un tuteur en lui...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/serons-nous-petits-avocats,57243.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "category": "fiscal"
   },
   {
