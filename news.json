@@ -1,5 +1,35 @@
 [
   {
+    "id": "https://www.village-justice.com/articles/dossiers-juridiques-qui-fonctionne-vraiment-cabinet-qui-fonctionne-pas-encore,57338.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "08/05/2026",
+    "date_iso": "2026-05-08",
+    "title": "IA et dossiers juridiques : ce qui fonctionne vraiment en cabinet, et ce qui ne fonctionne pas (encore).",
+    "summary": "Trois ans de promesses sur l'IA dans les cabinets d'avocats, et toujours peu de retours terrain. Cette tribune trace, sans hype ni rejet, la ligne de partage entre ce que ces outils transforment réellement dans l'instruction d'un dossier — extraction des faits, détection des délais, structuration...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/dossiers-juridiques-qui-fonctionne-vraiment-cabinet-qui-fonctionne-pas-encore,57338.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/mineurs-non-accompagnes-danse-balance-entre-protection-droits,57331.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "08/05/2026",
+    "date_iso": "2026-05-08",
+    "title": "Mineurs non accompagnés : la danse de la balance entre protection et droits. Par Jacqueline Essiomley, Juriste.",
+    "summary": "À la croisée du droit des étrangers et de la protection de l'enfance, le traitement des Mineurs Non Accompagnés (MNA) est particulièrement connoté d'un antagonisme entre exigence de la protection immédiate de l'enfant et les contraintes procédurales liées à la détermination de la minorité, de...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/mineurs-non-accompagnes-danse-balance-entre-protection-droits,57331.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/notification-licenciement-pourquoi-utiliser-lettre-recommandee-electronique,57314.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "08/05/2026",
+    "date_iso": "2026-05-08",
+    "title": "Notification de licenciement : pourquoi utiliser la Lettre Recommandée Électronique plutôt qu'un courrier papier ?",
+    "summary": "Étape décisive dans la procédure de rupture du contrat de travail, la notification de licenciement est encadrée par le Code du travail et conditionne non seulement la validité du licenciement, mais aussi le point de départ de nombreux délais légaux, notamment en matière de préavis et de...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/notification-licenciement-pourquoi-utiliser-lettre-recommandee-electronique,57314.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "http://fiscalonline.com/International/Conventions-fiscales-et-preponderance-immobiliere-quand-le-droit-interne-dicte-le-sens-des-stipulations-internationales",
     "date": "07/05/2026",
     "date_iso": "2026-05-07",
@@ -37,6 +67,26 @@
     "summary": "La transformation numérique des cabinets d'avocats s'accélère depuis plusieurs années. Entre gestion administrative, pilotage de la rentabilité et exigences croissantes des clients, les cabinets recherchent aujourd'hui des outils capables de simplifier leur organisation tout en leur permettant de...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/jarvis-legal-poursuit-son-developpement-sein-lexisnexis-renforce-ses-outils,57256.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "http://fiscalonline.com/outils-fiscaux/DGFIP-2025-une-administration-qui-compte-entre-performance-numerique-et-proximite-humaine",
+    "date": "07/05/2026",
+    "date_iso": "2026-05-07",
+    "title": "DGFIP 2025 : une administration qui compte...entre performance numérique et proximité humaine",
+    "summary": "La Direction générale des Finances publiques (DGFiP) vient de publier son rapport d'activité 2025 qui dépeint une administration en pleine mutation...",
+    "source": "Fiscalonline",
+    "link": "http://fiscalonline.com/outils-fiscaux/DGFIP-2025-une-administration-qui-compte-entre-performance-numerique-et-proximite-humaine",
+    "category": "fiscal"
+  },
+  {
+    "id": "http://fiscalonline.com/International/Le-dispositif-initial-d-indemnisation-des-aviseurs-fiscaux-etait-limite-a-certaines-fraudes-fiscales-internationales",
+    "date": "07/05/2026",
+    "date_iso": "2026-05-07",
+    "title": "Le dispositif initial d’indemnisation des aviseurs fiscaux était limité à certaines fraudes fiscales internationales",
+    "summary": "Le juge de l'mpôt vient de nous rappeler le caractère discrétionnaire et encadré du régime d’indemnisation des aviseurs fiscaux. L’administration...",
+    "source": "Fiscalonline",
+    "link": "http://fiscalonline.com/International/Le-dispositif-initial-d-indemnisation-des-aviseurs-fiscaux-etait-limite-a-certaines-fraudes-fiscales-internationales",
     "category": "fiscal"
   },
   {
