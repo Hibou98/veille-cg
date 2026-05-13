@@ -1,5 +1,75 @@
 [
   {
+    "id": "http://fiscalonline.com/Innovation/Credit-d-impot-innovation-CII-la-perte-du-statut-PME-intervient-a-compter-de-la-seconde-annee-consecutive-de-depassement",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "Crédit d'impôt innovation (CII) : la perte du statut PME intervient à compter de la seconde année consécutive de dépassement",
+    "summary": "Le juge vient de nous rappeler les modalités d'appréciation du statut de PME au sens du RGEC, aux fins du bénéfice du crédit d'impôt innovation pré...",
+    "source": "Fiscalonline",
+    "link": "http://fiscalonline.com/Innovation/Credit-d-impot-innovation-CII-la-perte-du-statut-PME-intervient-a-compter-de-la-seconde-annee-consecutive-de-depassement",
+    "category": "fiscal"
+  },
+  {
+    "id": "http://fiscalonline.com/Entreprise/SEP-occulte-la-revelation-tardive-des-associes-ne-purge-pas-l-impot-sur-les-societes",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "SEP occulte : la révélation tardive des associés ne purge pas l'impôt sur les sociétés",
+    "summary": "Nouvelle décision illustrant les modalités d'imposition à l'impôt sur les sociétés des sociétés en participation (SEP) en l'absence de déclaration...",
+    "source": "Fiscalonline",
+    "link": "http://fiscalonline.com/Entreprise/SEP-occulte-la-revelation-tardive-des-associes-ne-purge-pas-l-impot-sur-les-societes",
+    "category": "fiscal"
+  },
+  {
+    "id": "http://fiscalonline.com/outils-fiscaux/Article-L-76-B-du-LPF-l-irregularite-partielle-ne-purge-pas-l-imposition",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "Article L. 76 B du LPF : l'irrégularité partielle ne purge pas l'imposition",
+    "summary": "Le juge de l'impôt précise la portée de la méconnaissance de l'obligation d'information du contribuable prévue à l'article L. 76 B du LPF lorsque l...",
+    "source": "Fiscalonline",
+    "link": "http://fiscalonline.com/outils-fiscaux/Article-L-76-B-du-LPF-l-irregularite-partielle-ne-purge-pas-l-imposition",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/actualites-de-mai-2026/",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "Actualités de Mai 2026",
+    "summary": "Valoxy, cabinet d’expertise comptable dans les Hauts de France, rappelle dans ces actualités de Mai 2026 les dernières mesures sociales et fiscales. Elles ont un impact sur les entreprises, les salariés et les particuliers. Retrouvez aussi nos actualités de Février,... L’article Actualités de Mai...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/actualites-de-mai-2026/",
+    "category": "compta"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/management-developper-transmettre-son-cabinet-par-recrutement-une-trajectoire,56596.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "Développer et transmettre son cabinet par le recrutement : une trajectoire de long terme.",
+    "summary": "Les cabinets d'avocats ne sont fondamentalement pas différents des autres entreprises de services. Ils produisent une prestation intellectuelle à forte valeur ajoutée, reposant presque exclusivement (pour l'instant) sur le capital humain : des femmes et des hommes, leur expertise, leur engagement...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/management-developper-transmettre-son-cabinet-par-recrutement-une-trajectoire,56596.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/bnp-paribas-condamnee-rembourser-360-eur-apres-une-fraude-validee-via-cle,57396.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "BNP Paribas condamnée à rembourser 25 360 € après une fraude validée via la clé digitale. Par Virginie Audinot, Avocat.",
+    "summary": "Le 14 avril 2026, le Tribunal judiciaire de Paris (TJ Paris, 9ᵉ ch., 2ᵉ section, 14 avril 2026, n° 25/03556) a condamné BNP Paribas à rembourser intégralement un client victime d'une fraude au faux conseiller bancaire, malgré l'authentification des opérations litigieuses via la clé digitale. Cette...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/bnp-paribas-condamnee-rembourser-360-eur-apres-une-fraude-validee-via-cle,57396.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/conges-parentaux-que-les-employeurs-doivent-anticiper-des-2026,57399.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "13/05/2026",
+    "date_iso": "2026-05-13",
+    "title": "Congés parentaux : ce que les employeurs doivent anticiper dès 2026. Par Clémentine Bensimon, Avocat.",
+    "summary": "La réforme progressive des congés parentaux engagée sous l'influence du droit de l'Union européenne continue de produire des effets très concrets pour les entreprises. Après les évolutions introduites par la loi d'adaptation au droit de l'UE en 2023, la loi de financement de la Sécurité sociale...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/conges-parentaux-que-les-employeurs-doivent-anticiper-des-2026,57399.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/biens-culturels-appartenant-etat-etranger-illicitement-detenus-france-quelles,57375.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "12/05/2026",
     "date_iso": "2026-05-12",
@@ -27,6 +97,16 @@
     "summary": "Plus d'un avocat sur deux présente des symptômes de burn-out. Découvrez les signes, les causes et des solutions de formation et de sophrologie. Article proposé par Anaïs GARCIA, sophrologue et formatrice spécialisée dans l'accompagnement des avocats depuis 2019, +1000 avocats accompagnés - Voir le...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/burn-out-des-avocats-signes-causes-solutions-concretes,57311.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "http://fiscalonline.com/International/Prix-de-transfert-matiere-a-la-mode-mais-il-reste-un-Gap-entre-les-tendances-de-l-administration-et-le-regard-du-juge",
+    "date": "12/05/2026",
+    "date_iso": "2026-05-12",
+    "title": "Prix de transfert : matière à la mode, mais il reste un “Gap” entre les tendances de l’administration et le regard du juge",
+    "summary": "En ce moment, la mode est partout. Au cinéma, avec le retour du Diable s’habille en Prada, dont le second opus est en salles. Et au contentieux fis...",
+    "source": "Fiscalonline",
+    "link": "http://fiscalonline.com/International/Prix-de-transfert-matiere-a-la-mode-mais-il-reste-un-Gap-entre-les-tendances-de-l-administration-et-le-regard-du-juge",
     "category": "fiscal"
   },
   {
