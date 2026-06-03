@@ -1,5 +1,45 @@
 [
   {
+    "id": "https://valoxy.org/blog/la-regle-des-minimis/",
+    "date": "03/06/2026",
+    "date_iso": "2026-06-03",
+    "title": "La règle de minimis",
+    "summary": "La règle de minimis encadre de nombreuses aides publiques aux entreprises, en France comme dans les autres pays de l’Union Européenne. Qu’est-ce que cette règle ? Comment fonctionne-t-elle ? Quels sont ses objectifs ? Valoxy, cabinet d’expertise comptable dans les... L’article La règle de minimis...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/la-regle-des-minimis/",
+    "category": "compta"
+  },
+  {
+    "id": "https://valoxy.org/blog/actualites-de-juin-2026/",
+    "date": "03/06/2026",
+    "date_iso": "2026-06-03",
+    "title": "Actualités de Juin 2026",
+    "summary": "Valoxy, cabinet d’expertise comptable dans les Hauts de France, rappelle dans ces actualités de Juin 2026 les dernières mesures sociales et fiscales. Elles ont un impact sur les entreprises, les salariés et les particuliers. Retrouvez aussi nos actualités de Mars,... L’article Actualités de Juin...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/actualites-de-juin-2026/",
+    "category": "compta"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/direction-juridique-clm-legaltech-notre-journee-dediee-pour-repenser-management,57676.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/06/2026",
+    "date_iso": "2026-06-03",
+    "title": "Direction juridique, CLM, legaltech : notre journée dédiée pour repenser le management des contrats et ses pratiques, le 23 juin.",
+    "summary": "Le droit des contrats se transforme sous l'effet des évolutions technologiques et organisationnelles : la 15ᵉ Journée du Management des Contrats propose donc aux juristes une journée de réflexion, d'échanges et de montée en compétence, au plus près des enjeux de terrain. Le droit des contrats ne...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/direction-juridique-clm-legaltech-notre-journee-dediee-pour-repenser-management,57676.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/preuve-numerique-transnationale-recours-effectif-chambre-criminelle-saisit-cour,57648.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/06/2026",
+    "date_iso": "2026-06-03",
+    "title": "Contentieux Sky ECC, preuve numérique transnationale et recours effectif : la Cour de cassation saisit la Cour de justice de l'Union européenne. Par Naguin Zekkouti, Avocat.",
+    "summary": "Une preuve pénale peut-elle circuler d'un État membre à un autre et fonder des poursuites sans qu'aucun juge ne soit effectivement en mesure d'en contrôler la régularité au regard des exigences du recours effectif ? C'est la question que la chambre criminelle de la Cour de cassation a décidé de...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/preuve-numerique-transnationale-recours-effectif-chambre-criminelle-saisit-cour,57648.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/surcharge-invisible-des-directions-juridiques,57623.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "02/06/2026",
     "date_iso": "2026-06-02",
