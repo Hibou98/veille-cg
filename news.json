@@ -1,5 +1,35 @@
 [
   {
+    "id": "https://www.village-justice.com/articles/enquete-interne-preuve-deloyale-denonciation-harcelement-moral-rigueur,58052.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "30/06/2026",
+    "date_iso": "2026-06-30",
+    "title": "Enquête interne, preuve déloyale et dénonciation de harcèlement moral : la rigueur probatoire s'impose. Par Sophie Reichman, Avocat.",
+    "summary": "Peut-on enregistrer un enquêteur à son insu et licencier un salarié qui dénonce à tort un harcèlement moral ? Par un arrêt du 10 juin 2026, la Cour de cassation rappelle que l'enquête interne est devenue une pièce probatoire à part entière, soumise à un strict contrôle de loyauté, et que la parole...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/enquete-interne-preuve-deloyale-denonciation-harcelement-moral-rigueur,58052.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/interview-presidente-afje-nathalie-dubois,57982.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "30/06/2026",
+    "date_iso": "2026-06-30",
+    "title": "Nathalie Dubois, nouvelle Présidente de l'AFJE : \"on fait du droit au service de quelque chose, le Droit porte un projet de société\".",
+    "summary": "Nathalie Dubois, Group general counsel de Fnac Darty, est depuis le mois de mai 2026 le nouveau visage de la présidence de l'Association Français des Juristes d'Entreprise (AFJE). Pour faire sa connaissance en ce début de mandat (de 3 ans), nous lui avons soumis quatre enjeux sociétaux, auxquels...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/interview-presidente-afje-nathalie-dubois,57982.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/loi-sapin-devoir-vigilance-cartographier-vos-risques-moindre-cout-grace,58025.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "30/06/2026",
+    "date_iso": "2026-06-30",
+    "title": "Loi Sapin 2, Devoir de vigilance : Cartographier vos risques à moindre coût grâce à l'alternance.",
+    "summary": "Face au tsunami réglementaire (Loi Sapin 2, Devoir de Vigilance et bientôt la CS3D), les Départements Conformité sont sous tension. L'enjeu n'est plus seulement de comprendre la loi, mais de la déployer opérationnellement : collecter de la data, vérifier des milliers de tiers, mettre à jour les...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/loi-sapin-devoir-vigilance-cartographier-vos-risques-moindre-cout-grace,58025.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://fiscalonline.com/International/caracterisation-etablissement-stable-importance-localisation-effective",
     "date": "29/06/2026",
     "date_iso": "2026-06-29",
@@ -47,6 +77,46 @@
     "summary": "Quelques mois après les élections municipales de mars 2026, il paraît opportun de revenir sur l'une des principales évolutions issues de la loi n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local : la suppression du conflit d'intérêts entre intérêts publics. Longtemps...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/suppression-conflit-interets-public-public-quelle-clarification-cadre-juridique,58043.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/paul-klee-mort-29-juin-vente-suivre-christie-s-2-juillet",
+    "date": "29/06/2026",
+    "date_iso": "2026-06-29",
+    "title": "Paul Klee mort un 29 juin, une vente à suivre chez Christie's le 2 juillet",
+    "summary": "Le 29 juin 1940, Paul Klee s’éteint à Muralto, près de Locarno, après une longue maladie, laissant derrière lui une œuvre prolifique qui irrigue encore toute l’histoire de l’art du XXᵉ siècle. Peintre germano-suisse, théoricien et pédagogue, son nom reste indissociable de l’abstraction, du Bauhaus...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/paul-klee-mort-29-juin-vente-suivre-christie-s-2-juillet",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/perkins-coie-ashurst-finalisent-leur-rapprochement-creant-ashurst",
+    "date": "29/06/2026",
+    "date_iso": "2026-06-29",
+    "title": "Perkins Coie et Ashurst finalisent leur rapprochement, en créant Ashurst Perkins Coie",
+    "summary": "Resume non disponible.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/perkins-coie-ashurst-finalisent-leur-rapprochement-creant-ashurst",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/outils-fiscaux/coup-accordeon-abus-droit-fiscal-juge-apprecie-coherence-globale",
+    "date": "29/06/2026",
+    "date_iso": "2026-06-29",
+    "title": "Le coup d'accordéon à l'épreuve de l'abus de droit fiscal : le juge apprécie la cohérence globale du montage",
+    "summary": "Pour le juge de l’impôt l'analyse de la justification économique d’une opération d'augmentation-réduction de capital doit reposer sur l'effet global de l'opération, et non sur les justifications spécifiques de chacune de ses composantes considérées isolément.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/outils-fiscaux/coup-accordeon-abus-droit-fiscal-juge-apprecie-coherence-globale",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/bredin-prat-conseille-theon-international-plc-cadre-acquisition",
+    "date": "29/06/2026",
+    "date_iso": "2026-06-29",
+    "title": "Bredin Prat conseille Theon International PLC dans le cadre de l’acquisition envisagée de HGH Systèmes Infrarouges auprès de Carlyle et de l’équipe de management",
+    "summary": "Resume non disponible.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/bredin-prat-conseille-theon-international-plc-cadre-acquisition",
     "category": "fiscal"
   },
   {
