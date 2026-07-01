@@ -1,5 +1,45 @@
 [
   {
+    "id": "https://valoxy.org/blog/actualites-de-juillet-2026/",
+    "date": "01/07/2026",
+    "date_iso": "2026-07-01",
+    "title": "Actualités de Juillet 2026",
+    "summary": "Valoxy, cabinet d’expertise comptable dans les Hauts de France, rappelle dans cet article d’actualités de Juillet 2026 les dernières mesures sociales et fiscales. Elles ont un impact sur les entreprises, les salariés et les particuliers. Retrouvez aussi nos actualités de... L’article Actualités de...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/actualites-de-juillet-2026/",
+    "category": "compta"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/qpc-juin-2026-sur-satd-coup-arret-privilege-exorbitant-administration-fiscale,58056.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "01/07/2026",
+    "date_iso": "2026-07-01",
+    "title": "QPC sur la saisie administrative à tiers détenteur (SATD) : un coup d'arrêt au privilège exorbitant de l'administration fiscale. Par Arthur Jaglin, Avocat.",
+    "summary": "Les banques et les assureurs n'ont pas à payer les arriérés d'impôts de leurs clients. C'est le principal enseignement, même s'il peut paraître évident, qui se dégage de la décision rendue le 5 juin dernier par le Conseil Constitutionnel (Décision n°2026-1203 - QPC du 5 juin 2026) relativement à...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/qpc-juin-2026-sur-satd-coup-arret-privilege-exorbitant-administration-fiscale,58056.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/enquete-judiciaire-acces-systematique-aux-donnees-detenues-par-les-fournisseurs,57394.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "01/07/2026",
+    "date_iso": "2026-07-01",
+    "title": "Enquête judiciaire et accès systématique aux données détenues par les fournisseurs de services ou de messageries électroniques. Par Adrien Mawas, Avocat.",
+    "summary": "Le 13 avril 2026, le garde des Sceaux a adressé à l'ensemble des procureurs une circulaire relative à l'accès aux données détenues par les fournisseurs de services ou de messageries électroniques dans le cadre d'enquête. Si le texte vise à préciser le cadre juridique de coopération avec les...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/enquete-judiciaire-acces-systematique-aux-donnees-detenues-par-les-fournisseurs,57394.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/interview-commissaire-justice-une-profession-unifiee-concue-pour-adapter-benoit,58062.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "01/07/2026",
+    "date_iso": "2026-07-01",
+    "title": "[Interview] Commissaire de Justice, une profession unifiée et conçue pour s'adapter.",
+    "summary": "Le 1er juillet 2026 marque un tournant dans le paysage juridique français puisqu'il voit s'éteindre deux professions, celles d'huissier de Justice et de commissaire-priseur judiciaire, au profit de la seule profession de commissaire de Justice . Pour prendre le pouls de ce corps professionnel...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/interview-commissaire-justice-une-profession-unifiee-concue-pour-adapter-benoit,58062.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/enquete-interne-preuve-deloyale-denonciation-harcelement-moral-rigueur,58052.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "30/06/2026",
     "date_iso": "2026-06-30",
@@ -27,6 +67,26 @@
     "summary": "Face au tsunami réglementaire (Loi Sapin 2, Devoir de Vigilance et bientôt la CS3D), les Départements Conformité sont sous tension. L'enjeu n'est plus seulement de comprendre la loi, mais de la déployer opérationnellement : collecter de la data, vérifier des milliers de tiers, mettre à jour les...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/loi-sapin-devoir-vigilance-cartographier-vos-risques-moindre-cout-grace,58025.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/eric-quentin-elu-president-institut-avocats-conseils-fiscaux-iacf",
+    "date": "30/06/2026",
+    "date_iso": "2026-06-30",
+    "title": "Éric Quentin élu président de l’Institut des Avocats Conseils Fiscaux (IACF)",
+    "summary": "À l’issue de son assemblée générale, l’IACF (principale association contribuant au rayonnement, à la réflexion et à la formation des avocats spécialisés en droit fiscal) a élu Me Éric Quentin à sa présidence pour un mandat de trois ans. Ce dernier succède à Me Charles Ménard qui présidait...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/eric-quentin-elu-president-institut-avocats-conseils-fiscaux-iacf",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/jasper-avocats-poursuit-croissance-arrivee-marie-victoire-joubeaud",
+    "date": "30/06/2026",
+    "date_iso": "2026-06-30",
+    "title": "jasper avocats poursuit sa croissance avec l’arrivée de Marie-Victoire Joubeaud en tant qu’associée",
+    "summary": "L’arrivée de Marie-Victoire Joubeaud permet à jasper avocats de renforcer ses expertises en droit des affaires et de structurer une pratique Corporate / M&A dédiée, afin d'accompagner ses clients sur l'ensemble de leurs opérations stratégiques.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/jasper-avocats-poursuit-croissance-arrivee-marie-victoire-joubeaud",
     "category": "fiscal"
   },
   {
