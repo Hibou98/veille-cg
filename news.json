@@ -1,5 +1,35 @@
 [
   {
+    "id": "https://www.village-justice.com/articles/abus-majorite-prescription-action-indemnitaire-point-depart-delai,58104.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/07/2026",
+    "date_iso": "2026-07-03",
+    "title": "L'abus de majorité en droit des sociétés : prescription de l'action indemnitaire et point de départ du délai. Par Alexandra Six, Avocat.",
+    "summary": "Par un arrêt inédit du 6 mai 2026 (Com., n°25-11.498), la Cour de cassation apporte une précision importante sur le point de départ de la prescription de l'action en responsabilité fondée sur un abus de majorité. Cette décision mérite l'attention des praticiens car elle rappelle que, si l'action...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/abus-majorite-prescription-action-indemnitaire-point-depart-delai,58104.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/pourquoi-des-avocats-ont-decide-passer-cloud-pour-gerer-leurs-pieces,58064.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/07/2026",
+    "date_iso": "2026-07-03",
+    "title": "Pourquoi des avocats ont décidé de se passer du cloud pour gérer leurs pièces ?",
+    "summary": "C'est devenu un réflexe : pour trier, numéroter, tamponner, fusionner, convertir une pièce ou générer un bordereau de communication, on ouvre un site en ligne. Sans jamais savoir où sont hébergés les serveurs, ni ce qu'il advient des fichiers. Pour des documents couverts par le secret...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/pourquoi-des-avocats-ont-decide-passer-cloud-pour-gerer-leurs-pieces,58064.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/liste-noire-amf-devoir-vigilance-banquier-emergence-nouveau-standard,57903.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/07/2026",
+    "date_iso": "2026-07-03",
+    "title": "Liste noire de l'AMF et devoir de vigilance du banquier : l'émergence d'un nouveau standard jurisprudentiel (2022-2026). Par Thomas Zamaron, Juriste.",
+    "summary": "Longtemps perçue comme un simple outil d'information destiné aux épargnants, la liste noire de l'Autorité des Marchés Financiers (AMF) occupe désormais une place centrale dans le contentieux des fraudes aux faux placements. L'analyse comparée de six décisions rendues entre 2022 et 2026 montre...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/liste-noire-amf-devoir-vigilance-banquier-emergence-nouveau-standard,57903.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://fiscalonline.com/Entreprise/retrait-membre-aarpi-cours-exercice-avocat-retrayant-bien-impose-quote",
     "date": "02/07/2026",
     "date_iso": "2026-07-02",
@@ -37,6 +67,36 @@
     "summary": "Dans l'univers compliqué de la loi du 26 mai 2026 de simplification de la vie économique, quelques dispositions s'attachent à « faciliter l'accès de toutes les entreprises à la commande publique » visant les marchés publics et les concessions. Pour les concessions et les délégations de service...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/concessions-delegations-services-publics-saisies-par-simplification,58070.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/outils-fiscaux/presidentielle-2027-mesures-fiscales-projet-socialiste",
+    "date": "02/07/2026",
+    "date_iso": "2026-07-02",
+    "title": "Présidentielle 2027 : les mesures fiscales du projet socialiste",
+    "summary": "Le Parti socialiste a rendu public son « Projet socialiste » en vue de l'élection présidentielle de 2027. Structuré en six grandes parties, ce document programmatique comporte un volet fiscal d'une ampleur inédite depuis longtemps. Nous en avons extrait et réorganisé par domaine d'imposition...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/outils-fiscaux/presidentielle-2027-mesures-fiscales-projet-socialiste",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/International/prix-transfert-restructurations-reponse-contraction-marche-comme-cause",
+    "date": "02/07/2026",
+    "date_iso": "2026-07-02",
+    "title": "Prix de transfert et restructurations : la réponse à la contraction du marché comme cause d'exclusion de l'article 57 du CGI",
+    "summary": "Nouvelle décision dans le cadre du contentieux des prix de transfert appliqués aux restructurations intra-groupes. Elle consacre une lecture plutôt nuancée de l'article 57 du CGI dans l’hypothèse de fermeture de sites de production.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/International/prix-transfert-restructurations-reponse-contraction-marche-comme-cause",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://valoxy.org/blog/la-resilience-des-competences-cles/",
+    "date": "02/07/2026",
+    "date_iso": "2026-07-02",
+    "title": "La résilience des compétences clés",
+    "summary": "C’est la résilience des compétences clés qui fera la force des entreprises de demain. Identifier les compétences qui seront nécessaires demain est un exercice classique des comités de direction. Data, intelligence artificielle (IA), créativité, communication, leadership, pensée critique… chaque...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/la-resilience-des-competences-cles/",
     "category": "fiscal"
   },
   {
