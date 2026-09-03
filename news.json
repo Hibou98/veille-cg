@@ -10,6 +10,46 @@
     "category": "fiscal"
   },
   {
+    "id": "https://valoxy.org/blog/numerisation-des-paiments/",
+    "date": "03/09/2026",
+    "date_iso": "2026-09-03",
+    "title": "La numérisation des paiements",
+    "summary": "Le paiement par carte bancaire est aujourd’hui, en France, le moyen de paiement le plus utilisé, et a dépassé les espèces. Cependant, la numérisation des paiements comprend d’autres moyens de paiement que la carte. Ils se développent rapidement, grâce à... L’article La numérisation des paiements...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/numerisation-des-paiments/",
+    "category": "compta"
+  },
+  {
+    "id": "https://valoxy.org/blog/formation-sur-le-tas/",
+    "date": "03/09/2026",
+    "date_iso": "2026-09-03",
+    "title": "Former ses collaborateurs : pourquoi l’apprentissage sur le tas ne suffit pas toujours ?",
+    "summary": "Dans de nombreuses entreprises, une partie importante de l’apprentissage repose sur la formation sur le tas. Mais combien coûte réellement le « on verra bien » ? Ce coût est rarement pris en compte dans le budget formation. Valoxy, cabinet... L’article Former ses collaborateurs : pourquoi...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/formation-sur-le-tas/",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/mandat-protection-future-debitant-tabac-securiser-continuite-exploitation,58884.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/09/2026",
+    "date_iso": "2026-09-03",
+    "title": "Mandat de protection future et débitant de tabac : sécuriser la continuité d'exploitation. Par Mélanie Parnot, Avocate.",
+    "summary": "De plus en plus de professionnels du conseil - notaires, avocats, experts-comptables et gestionnaires de patrimoine - recommandent aux chefs d'entreprise de conclure un mandat de protection future afin d'assurer la continuité de leur activité en cas d'altération de leurs facultés. La combinaison...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/mandat-protection-future-debitant-tabac-securiser-continuite-exploitation,58884.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/conformite-compliance-vrai-contresens-est-pas-lexical-est-managerial,58875.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "03/09/2026",
+    "date_iso": "2026-09-03",
+    "title": "Conformité ou compliance : le vrai contresens n'est pas lexical, il est managérial. Par Myriam Dami, Risk Manager.",
+    "summary": "On traduit couramment compliance par « conformité ». L'usage est consacré, notamment dans les textes et chez les régulateurs. Pourtant, derrière cette apparente équivalence se cache une différence importante : être conforme à une règle n'est pas tout à fait la même chose qu'organiser une entreprise...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/conformite-compliance-vrai-contresens-est-pas-lexical-est-managerial,58875.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://fiscalonline.com/patrimoine/taxe-fonciere-succession-tant-mutation-cadastrale-n-pas-faite-heritier",
     "date": "02/09/2026",
     "date_iso": "2026-09-02",
@@ -37,6 +77,16 @@
     "summary": "Lorsque l'appel principal d'une commune tend à l'annulation d'un jugement l'ayant condamnée à indemniser son cocontractant du fait de la résiliation pour motif d'intérêt général d'une convention de délégation de service public (DSP), l'appel incident formé par ce même cocontractant aux mêmes fins...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/resiliation-une-delegation-service-public-pour-motif-interet-general,58862.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/changement-regime-matrimonial-notariat-plaide-droit-partage-1-10",
+    "date": "02/09/2026",
+    "date_iso": "2026-09-02",
+    "title": "Changement de régime matrimonial : le notariat plaide pour un droit de partage à 1,10 % et la résurrection de l'article 1133 bis du CGI",
+    "summary": "Bonjour les Fiscalistes, le Conseil supérieur du notariat (CSN) s'attaque au renchérissement fiscal des modifications de régime matrimonial et propose de rétablir une neutralité que deux réformes ont mis à mal.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/changement-regime-matrimonial-notariat-plaide-droit-partage-1-10",
     "category": "fiscal"
   },
   {
