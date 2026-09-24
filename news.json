@@ -10,6 +10,36 @@
     "category": "fiscal"
   },
   {
+    "id": "https://valoxy.org/blog/actualites-doctobre-2026/",
+    "date": "24/09/2026",
+    "date_iso": "2026-09-24",
+    "title": "Actualités d’Octobre 2026",
+    "summary": "Valoxy, cabinet d’expertise comptable dans les Hauts de France, rappelle dans cet article les dernières mesures sociales et fiscales. Ces actualités d’Octobre 2026 ont un impact direct sur les entreprises, les salariés et les particuliers. Retrouvez aussi nos actualités de... L’article Actualités...",
+    "source": "Valoxy",
+    "link": "https://valoxy.org/blog/actualites-doctobre-2026/",
+    "category": "compta"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/novembre-2026-quatre-regimes-controle-des-exportations-referment-sur-les,59189.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "24/09/2026",
+    "date_iso": "2026-09-24",
+    "title": "10 novembre 2026 : quatre régimes de contrôle des exportations se referment sur les produits industriels européens. Par Jan Holtzhäusser, Avocat",
+    "summary": "Le 10 novembre 2026, deux suspensions prennent fin le même jour : l'Affiliates Rule américaine du BIS et les annonces chinoises 61 et 62 sur les terres rares. Pour un industriel français, quatre régimes de contrôle — américain, chinois, européen, français — peuvent alors s'appliquer au même...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/novembre-2026-quatre-regimes-controle-des-exportations-referment-sur-les,59189.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/dossier-preuve-droit-entre-conformite-contentieux-preuve-change-dimension,58525.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "24/09/2026",
+    "date_iso": "2026-09-24",
+    "title": "Dossier Preuves et Droit : entre conformité et contentieux, la preuve change de dimension.",
+    "summary": "Dans les entreprises, la preuve n'arrive plus seulement au moment où le contentieux est déjà engagé. Elle se fabrique bien avant, souvent sans bruit, dans les contrats signés à distance, les validations internes, les messageries professionnelles, les outils RH, les journaux de connexion ou les...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/dossier-preuve-droit-entre-conformite-contentieux-preuve-change-dimension,58525.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/contestation-des-honoraires-avocat-par-client-mauvais-perdant-dans-cadre-une,58944.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "23/09/2026",
     "date_iso": "2026-09-23",
@@ -30,6 +60,66 @@
     "category": "fiscal"
   },
   {
+    "id": "https://fiscalonline.com/Entreprise/regime-siic-cession-dernier-actif-immobilier-abandon-administration",
+    "date": "23/09/2026",
+    "date_iso": "2026-09-23",
+    "title": "Régime SIIC et cession du dernier actif immobilier : abandon par l'administration fiscale de la déchéance rétroactive",
+    "summary": "L’administration fiscale précise la date à laquelle une SIIC qui cède son dernier actif immobilier avant liquidation, sans intention de réinvestir, perd le bénéfice de l'exonération de l'article 208 C du CGI. En rapportant ses commentaires antérieurs qui prévoyaient une sortie rétroactive au...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/Entreprise/regime-siic-cession-dernier-actif-immobilier-abandon-administration",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/Entreprise/e-invoicing-tolerance-mandataires-presse",
+    "date": "23/09/2026",
+    "date_iso": "2026-09-23",
+    "title": "E-invoicing : tolérance pour les mandataires de presse",
+    "summary": "L'administration fiscale apporte des précisions concernant l'application de la facture électronique (e-invoicing) aux intermédiaires de la presse.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/Entreprise/e-invoicing-tolerance-mandataires-presse",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/Transmission/dutreil-repute-acquis-juge-ferme-nouvelle-fois-porte-donateur-seul",
+    "date": "23/09/2026",
+    "date_iso": "2026-09-23",
+    "title": "Dutreil réputé acquis : le juge ferme une nouvelle fois la porte au donateur seul dirigeant",
+    "summary": "En confirmant la grille d'analyse de la Cour de cassation et la doctrine fiscale, le juge vient de nous rappeler que dans un schéma Dutreil « réputé acquis », le donateur ne peut assumer seul la direction post-transmission. Cette décision s'inscrit dans un alignement jurisprudentiel strict imposant...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/Transmission/dutreil-repute-acquis-juge-ferme-nouvelle-fois-porte-donateur-seul",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/refus-repositionnement-apres-fusion-indemnite-transactionnelle-ex",
+    "date": "23/09/2026",
+    "date_iso": "2026-09-23",
+    "title": "Refus de repositionnement après fusion : l'indemnité transactionnelle de l'ex-dirigeant n'échappe pas à l'impôt",
+    "summary": "Le licenciement consécutif au refus du dirigeant d'un repositionnement lors d'une restructuration peut-il être assimilé à un licenciement sans cause réelle et sérieuse ouvrant l'exonération de l'article 80 duodecies du CGI ?",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/refus-repositionnement-apres-fusion-indemnite-transactionnelle-ex",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/abus-droit-fiscal-deficits-fonciers-reserve-jouissance-caracterisee",
+    "date": "23/09/2026",
+    "date_iso": "2026-09-23",
+    "title": "Abus de droit fiscal et déficits fonciers : la réserve de jouissance caractérisée par la lenteur des travaux",
+    "summary": "Nouvelle illustration de la sévérité du juge de l’impôt face aux baux dits de complaisance conclus entre une SCI et ses associés (Art. 15-II du CGI).",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/abus-droit-fiscal-deficits-fonciers-reserve-jouissance-caracterisee",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/exoneration-plus-value-residence-principale-compteur-eau-ne-ment-pas",
+    "date": "23/09/2026",
+    "date_iso": "2026-09-23",
+    "title": "Exonération de plus-value sur la résidence principale : le compteur d'eau ne ment pas",
+    "summary": "Le juge de l’impôt nous rappelle que la réalité de l'habitation effective au sens de l'article 150 U-II-1° du CGI s'apprécie au regard d'éléments matériels objectifs.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/exoneration-plus-value-residence-principale-compteur-eau-ne-ment-pas",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/injonction-payer-une-fausse-bonne-idee,59148.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "22/09/2026",
     "date_iso": "2026-09-22",
@@ -47,6 +137,26 @@
     "summary": "Un loyer impayé, un dépôt de garantie non restitué ou des travaux contestés peuvent rapidement transformer une relation locative en contentieux. Pour les professionnels du droit, le traitement du dossier commence par la qualification du litige, la réunion des preuves et l'identification des étapes...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/litige-proprietaire-locataire-maitriser-les-etapes-procedure,59167.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/roy-lichtenstein-whitney-museum-exposition-inedite-derniere-annee",
+    "date": "22/09/2026",
+    "date_iso": "2026-09-22",
+    "title": "Roy Lichtenstein au Whitney Museum : une exposition inédite sur sa dernière année",
+    "summary": "Jusqu'au 1er juin 2027, le Whitney Museum of American Art à New York présente Roy Lichtenstein : 1997, une exposition consacrée aux œuvres, études et projets conçus durant la dernière année de la vie de l’artiste américain. Installé au troisième étage du musée, cet accrochage resserré accompagne la...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/roy-lichtenstein-whitney-museum-exposition-inedite-derniere-annee",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/van-gogh-exposition-historique-reunissant-88-peintures-pays-bas",
+    "date": "22/09/2026",
+    "date_iso": "2026-09-22",
+    "title": "Van Gogh : l'exposition historique réunissant 88 peintures aux Pays-Bas",
+    "summary": "Du 15 septembre 2026 au 3 janvier 2027, le musée Kröller-Müller d’Otterlo présente Van Gogh, All Our Paintings, une exposition exceptionnelle réunissant ses 88 peintures de Vincent van Gogh. Pour la première fois depuis 1984, l’un des plus importants ensembles au monde consacrés à l’artiste est...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/van-gogh-exposition-historique-reunissant-88-peintures-pays-bas",
     "category": "fiscal"
   },
   {
