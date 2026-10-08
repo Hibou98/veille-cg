@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://fiscalonline.com/outils-fiscaux/plf2027-51-premiers-amendements-adoptes-commission-finances-an",
+    "date": "08/10/2027",
+    "date_iso": "2027-10-08",
+    "title": "PLF2027 : les 51 premiers amendements adoptés en Commission des Finances de l'AN",
+    "summary": "ArticleAmendementMesure adoptéeArt. 2I-CF384Suppression des alinéas fiscalisant les indemnités journalières (affections de longue durée, accidents du...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/outils-fiscaux/plf2027-51-premiers-amendements-adoptes-commission-finances-an",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/plf2027-nouveau-regime-exoneration-plus-value-immobiliere-anciennes",
+    "date": "08/10/2027",
+    "date_iso": "2027-10-08",
+    "title": "PLF2027 : vers un nouveau régime d'exonération de plus-value immobilière pour les anciennes résidences principales ?",
+    "summary": "La commission des finances de l'Assemblée nationale a adopté un amendement qui maintiendrait l'exonération de la plus-value de cession de l'ancienne résidence principale lorsque…",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/plf2027-nouveau-regime-exoneration-plus-value-immobiliere-anciennes",
+    "category": "fiscal"
+  },
+  {
     "id": "https://fiscalonline.com/Entreprise/tva-conteuse-livres-audio-rechargee-enfants-releve-taux-reduit-5-5",
     "date": "17/07/2027",
     "date_iso": "2027-07-17",
@@ -7,6 +27,66 @@
     "summary": "Le juge de l’impôt vient de censurer la position restrictive de l'administration fiscale concernant le traitement de la TVA applicable aux conteuses de livres audio pour enfants.",
     "source": "Fiscalonline",
     "link": "https://fiscalonline.com/Entreprise/tva-conteuse-livres-audio-rechargee-enfants-releve-taux-reduit-5-5",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/outils-fiscaux/plf2027-reforme-apport-cession-rabotee-commission-finances",
+    "date": "08/10/2026",
+    "date_iso": "2026-10-08",
+    "title": "PLF2027 : la réforme de l'apport-cession rabotée en Commission des finances",
+    "summary": "Une semaine après le dépôt du PLF 2027, dont l'article 5 supprimait la purge de la plus-value d'apport en cas de donation ou de succession des titres de la holding, la commission des finances de l'Assemblée nationale a adopté un amendement qui en réduit fortement la portée.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/outils-fiscaux/plf2027-reforme-apport-cession-rabotee-commission-finances",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/on-en-parle/hoche-avocats-accompagne-isospace-occasion-acquisition-majorelle",
+    "date": "08/10/2026",
+    "date_iso": "2026-10-08",
+    "title": "Hoche Avocats accompagne ISOSPACE à l’occasion de l’acquisition de MAJORELLE",
+    "summary": "Hoche Avocats a conseillé ISOSPACE et son président Philippe Savajols dans le cadre de la structuration juridique de l’acquisition de 100 % du capital de MAJORELLE auprès d’ENGIE Energie Services, qui détenait la société depuis 2020.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/on-en-parle/hoche-avocats-accompagne-isospace-occasion-acquisition-majorelle",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/Entreprise/transfert-tva-cgi-cibs-bercy-detaille-detaille-regles-transition",
+    "date": "08/10/2026",
+    "date_iso": "2026-10-08",
+    "title": "Transfert de la TVA du CGI vers le CIBS : Bercy détaille les règles de transition",
+    "summary": "A trois mois du transfert des règles de la TVA du CGI vers le CBI l'administration précise le sort de sa doctrine, des textes réglementaires, des factures et des actes rédigés selon l'ancienne numérotation.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/Entreprise/transfert-tva-cgi-cibs-bercy-detaille-detaille-regles-transition",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/comment-cour-cassation-apprecie-elle-une-clause-attributive-competence,59389.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "08/10/2026",
+    "date_iso": "2026-10-08",
+    "title": "Comment la Cour de cassation apprécie-t-elle une clause attributive de compétence permettant de déterminer les juridictions désignées ? Par Benoit Henry, Avocat.",
+    "summary": "La Cour de cassation retient qu'une clause attributive de compétence est suffisamment précise lorsque, sans forcément nommer le tribunal compétent dans son seul libellé, elle identifie des éléments objectifs permettant au juge saisi de déterminer sa compétence, directement ou par renvoi aux règles...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/comment-cour-cassation-apprecie-elle-une-clause-attributive-competence,59389.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/controle-des-delais-paiement-par-dgccrf-les-regles-les-sanctions-les-bons,59376.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "08/10/2026",
+    "date_iso": "2026-10-08",
+    "title": "Contrôle des délais de paiement par la DGCCRF : les règles, les sanctions et les bons réflexes de l'entreprise contrôlée. Par Guillaume Leclerc, Avocat.",
+    "summary": "Un recommandé de la DREETS arrive sur le bureau du dirigeant : contrôle des délais de paiement, liste de pièces à remettre sous trois semaines, audition à fixer. En 2025, 882 établissements ont reçu ce type de courrier, et plus d'un sur deux s'est vu reprocher des retards. L'amende peut atteindre 2...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/controle-des-delais-paiement-par-dgccrf-les-regles-les-sanctions-les-bons,59376.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/kpi-compliance-mesurer-qui-compte-sans-confondre-activite-efficacite,59384.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "08/10/2026",
+    "date_iso": "2026-10-08",
+    "title": "KPI de compliance : mesurer ce qui compte sans confondre activité et efficacité.",
+    "summary": "Former 100 % des salariés, traiter davantage d'alertes ou multiplier les contrôles permet de mesurer l'activité d'un programme de compliance. Mais ces indicateurs disent ils réellement quelque chose de son efficacité ? En matière de conformité, un chiffre peut progresser sans que le risque diminue...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/kpi-compliance-mesurer-qui-compte-sans-confondre-activite-efficacite,59384.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "category": "fiscal"
   },
   {
@@ -57,6 +137,16 @@
     "summary": "Un arbre trop haut, trop près de la limite, des feuilles sur la véranda du voisin : le contentieux des plantations est l'un des plus fréquents en matière de voisinage. Le code civil y apporte une réponse en apparence mécanique. Pourtant, la jurisprudence récente montre que le juge ne se contente...",
     "source": "Village Justice - Fiscal",
     "link": "https://www.village-justice.com/articles/arbres-voisinage-quand-juge-protege-arbre-contre-regle-des-deux-metres,59404.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/thrs-logement-meuble-integre-bail-commercial-reste-imposable-meme-s-n",
+    "date": "07/10/2026",
+    "date_iso": "2026-10-07",
+    "title": "THRS : le logement meublé intégré au bail commercial reste imposable même s'il n'est jamais occupé",
+    "summary": "Précision du ministre concernant les règles d'assujettissement à la taxe d'habitation sur les résidences secondaires (THRS) pour les parties à usage d'habitation intégrées à un bail commercial.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/thrs-logement-meuble-integre-bail-commercial-reste-imposable-meme-s-n",
     "category": "fiscal"
   },
   {
