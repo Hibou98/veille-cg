@@ -30,6 +30,76 @@
     "category": "fiscal"
   },
   {
+    "id": "https://fiscalonline.com/outils-fiscaux/lmnp-plf2027-clause-grand-pere-investissements-realises-avant-2027",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "LMNP dans le PLF2027 : vers une clause de grand-père pour les investissements réalisés avant 2027 ?",
+    "summary": "La commission des finances ayant rejeté la partie recettes du PLF 2027 , les amendements qu'elle avait adoptés sur la location meublée ne figurent pas dans le texte qui sera débattu en séance publique à compter de cette semaine. Sur la base du texte initiale de l’article 7 du PLF , des députés ont...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/outils-fiscaux/lmnp-plf2027-clause-grand-pere-investissements-realises-avant-2027",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/Entreprise/marchand-biens-revente-societe-s-ur-deux-jours-avant-fin-engagement",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "Marchand de biens : la revente à une société sœur deux jours avant la fin de l'engagement constitue un abus de droit fiscal",
+    "summary": "Le juge nous rappelle que le respect formel de l'engagement de revendre ne suffit pas. Une revente à une société contrôlée par les mêmes personnes, sans changement réel dans la détention et l'usage du bien pose problème.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/Entreprise/marchand-biens-revente-societe-s-ur-deux-jours-avant-fin-engagement",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/patrimoine/location-saisonniere-faculte-suspendre-mise-location-suffit-rendre",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "Location saisonnière : la faculté de suspendre la mise en location suffit à rendre le propriétaire redevable de la taxe d'habitation",
+    "summary": "Le juge de l’impôt vient d’annuler un jugement qui avait déchargé de la taxe d'habitation le propriétaire de deux studios loués pour de courtes durées sur des plateformes, par l'intermédiaire d'une agence. La raison, la possibilité, prévue par le mandat de gestion, de suspendre la mise en location...",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/patrimoine/location-saisonniere-faculte-suspendre-mise-location-suffit-rendre",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://fiscalonline.com/Entreprise/taxe-bureaux-ile-france-non-deductibilite-is-n-pas-discriminatoire",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "Taxe sur les bureaux en Île-de-France : sa non-déductibilité de l'IS n'est pas discriminatoire",
+    "summary": "Le juge administratif vient de rejeter le recours d'une société qui contestait, au regard de la Convention européenne des droits de l'homme, la non-déductibilité de la taxe annuelle sur les bureaux en Île-de-France pour le calcul de l'impôt sur les sociétés.",
+    "source": "Fiscalonline",
+    "link": "https://fiscalonline.com/Entreprise/taxe-bureaux-ile-france-non-deductibilite-is-n-pas-discriminatoire",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/procedures-collectives-plan-sauvegarde-redressement-judiciaire,59392.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "Procédures collectives : le plan de sauvegarde et de redressement judiciaire. Par Alexandre Marchand, Avocat.",
+    "summary": "Lorsque le traitement curatif, d'une entreprise en procédure collective, soit en sauvegarde ou en redressement judiciaire lui a permis de retrouver une capacité bénéficiaire suffisante, l'entreprise en difficultés « sort » du dispositif de la procédure collective, en proposant un plan de sauvegarde...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/procedures-collectives-plan-sauvegarde-redressement-judiciaire,59392.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/fabuleux-destin-ariane,59479.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "[Semaine de la médiation 2026] Le fabuleux destin d'Ariane médiatrice. Par Françoise Housty, Médiatrice.",
+    "summary": "On parle beaucoup de médiation. Mais que voit-on du travail qu'elle engage ? Que lui demande-t-on, que lui prête-t-on, et que permet-elle réellement de reprendre dans les situations qui nous divisent ? Pour placer cette réflexion sur la médiation, empruntons le chemin de la fiction. Un labyrinthe,...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/fabuleux-destin-ariane,59479.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
+    "id": "https://www.village-justice.com/articles/pacte-associes-les-clauses-qui-evitent-proces-entre-associes,59475.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "date": "12/10/2026",
+    "date_iso": "2026-10-12",
+    "title": "Pacte d'associés : les 5 clauses qui évitent un procès entre associés. Par Valentin Leclair, Avocat.",
+    "summary": "En bref. Un pacte d'associés solide traite cinq sujets : la sortie, le départ, la gouvernance, la loyauté et le différend. Le pacte complète les statuts, il ne s'y substitue jamais : ce qui est public s'impose aux tiers, ce qui est confidentiel lie les signataires. Dans les dossiers qui m'arrivent,...",
+    "source": "Village Justice - Fiscal",
+    "link": "https://www.village-justice.com/articles/pacte-associes-les-clauses-qui-evitent-proces-entre-associes,59475.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+    "category": "fiscal"
+  },
+  {
     "id": "https://www.village-justice.com/articles/conference-reseaux-sociaux-trois-leviers-pour-une-protection-efficace-jeunesse,59467.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
     "date": "11/10/2026",
     "date_iso": "2026-10-11",
